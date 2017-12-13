@@ -22,11 +22,13 @@ function()
 	/** ADD ALL LOCALIZED ROUTES INSIDE THIS GROUP **/
 	Route::get('/', function()
 	{
-		return View::make('home.home');
+		//return View::make('home.home');
+		return View::make('maintenance.maintenance');
 	});
 
 	Route::get('test',function(){
 		return View::make('test');
 	});
+
 });
 

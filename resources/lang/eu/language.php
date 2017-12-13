@@ -11,12 +11,7 @@ return array(
     |
     */
 
-    'home' => 'Hasiera',
-    'about-us'=>'Nor Gara',
-    'services'=>'Zerbiztuak',
-    'web-pages'=>'Web Orriak',
-    'mantaince'=>'Manteinua',
-    'contact' => 'Kontaktua',
-    'language' => 'Euskara'
-
+    'en' => 'Ingelera',
+    'es' => 'Gaztelania',
+    'eu' => 'Euskara',
 );

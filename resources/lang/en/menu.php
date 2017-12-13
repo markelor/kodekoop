@@ -11,12 +11,12 @@ return array(
     |
     */
 
-    'home' => 'Hasiera',
-    'about-us'=>'Nor Gara',
-    'services'=>'Zerbiztuak',
-    'web-pages'=>'Web Orriak',
-    'mantaince'=>'Manteinua',
-    'contact' => 'Kontaktua',
-    'language' => 'Euskara'
+    'home' => 'Home',
+    'about-us'=>'About Us',
+    'services'=>'Services',
+    'web-pages'=>'Web Pages',
+    'mantaince'=>'Maintenance',
+    'contact' => 'Contact',
+    'language' => 'English'
 
 );

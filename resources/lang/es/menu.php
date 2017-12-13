@@ -16,6 +16,7 @@ return array(
     'services'=>'Servicios',
     'web-pages'=>'Paginas Web',
     'mantaince'=>'Mantenimiento',
-    'contact' => 'Contacto'
+    'contact' => 'Contacto',
+    'language' => 'Español'
 
 );

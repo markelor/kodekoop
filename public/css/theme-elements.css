@@ -7660,7 +7660,7 @@ html.ie11 .scroll-to-top {
 	background-position: -32px -44px;
 }
 
-.flag.flag-eu {
+.flag.flag-eur {
 	background-position: -48px -44px;
 }
 
@@ -8406,6 +8406,14 @@ html.ie11 .scroll-to-top {
 
 .flag.flag-zw {
 	background-position: -208px -165px;
+}
+
+.flag.flag-eu {
+	background-position: -224px -165px;
+}
+
+.flag.flag-en {
+	background-position: -240px -165px;
 }
 
 .loading-overlay-showing {
