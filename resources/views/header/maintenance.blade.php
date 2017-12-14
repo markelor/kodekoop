@@ -12,15 +12,12 @@
                                         <i class="fa fa-angle-down"></i>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="dropdownLanguage">
-                                        @foreach (Config::get('app.languages') as $language)
-                                            @if ($language != App::getLocale())
-                                            <a class="dropdown-item" href="{{ route('langroute', $language) }}">
-                                                <img src="img/blank.gif" class="flag flag-{{$language}}" alt="@lang('language.{{$language}}')" />
-                                                @lang('language.{{$language}}')
-                                            </a>
-                                            @endif
-                                        @endforeach
-                                        
+                                        @foreach (LaravelLocalization::getSupportedLocales() as $language=> $properties)
+                                            <a class="dropdown-item" hreflang="{{$language}}" href="{{ LaravelLocalization::getLocalizedURL($language, null, [], true) }}">
+                                                <img src="img/blank.gif" class="flag flag-{{$language}}" alt="{{ $properties['native'] }}" />
+                                                {{ $properties['native'] }}
+                                            </a>     
+                                        @endforeach                                                    
                                     </div>
                                 </li>                                            
                             </ul>
