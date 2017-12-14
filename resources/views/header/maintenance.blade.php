@@ -12,9 +12,15 @@
                                         <i class="fa fa-angle-down"></i>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="dropdownLanguage">
-                                        <a class="dropdown-item" href="#"><img src="img/blank.gif" class="flag flag-eu" alt="@lang('language.eu')" /> @lang('language.eu')</a>
-                                        <a class="dropdown-item" href="#"><img src="img/blank.gif" class="flag flag-es" alt="@lang('language.es')" /> @lang('language.es')</a>
-                                        <a class="dropdown-item" href="#"><img src="img/blank.gif" class="flag flag-en" alt="@lang('language.en')" /> @lang('language.en')</a>
+                                        @foreach (Config::get('app.languages') as $language)
+                                            @if ($language != App::getLocale())
+                                            <a class="dropdown-item" href="{{ route('langroute', $language) }}">
+                                                <img src="img/blank.gif" class="flag flag-{{$language}}" alt="@lang('language.{{$language}}')" />
+                                                @lang('language.{{$language}}')
+                                            </a>
+                                            @endif
+                                        @endforeach
+                                        
                                     </div>
                                 </li>                                            
                             </ul>

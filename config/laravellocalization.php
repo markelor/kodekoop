@@ -8,8 +8,8 @@ return [
     'supportedLocales' => [
         
         'en' => ['name' => 'English','script' => 'Latn', 'native' => 'English', 'regional' => 'en_GB'],
-        'es' => ['name' => 'Spanish','script' => 'Latn', 'native' => 'español', 'regional' => 'es_ES'],
-        'eu' => ['name' => 'Basque','script' => 'Latn', 'native' => 'euskara', 'regional' => 'eu_ES'],
+        'es' => ['name' => 'Spanish','script' => 'Latn', 'native' => 'Español', 'regional' => 'es_ES'],
+        'eu' => ['name' => 'Basque','script' => 'Latn', 'native' => 'Euskara', 'regional' => 'eu_ES'],
     ],
 
     // Negotiate for the user locale using the Accept-Language header if it's not defined in the URL?
