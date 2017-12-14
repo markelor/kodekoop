@@ -3,6 +3,7 @@
 return array(
 
     'title' => 'EN PROCESO DE DESARROLLO',
+    'description'=>'Estamos en fase de desarrollo, pronto tendreis noticias nuestras.',
     'body'=>'Nuestro sitio web está en proceso de desarrollo.<br>Pronto tendréis noticias nuestras.',
     'who-title'=>'¿Qué será?',
     'who-body'=>'Será un cooperativa de basada en proyectos de desarrollo web. Aquí se mostrarán nuestros servicios y los distintos proyectos llevados a cabo.',
