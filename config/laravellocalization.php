@@ -7,7 +7,7 @@ return [
     // Regional languages are sorted by their base language, so "British English" sorts as "English, British"
     'supportedLocales' => [
         
-        'en' => ['name' => 'English','script' => 'Latn', 'native' => 'English', 'regional' => 'en_GB'],
+        //'en' => ['name' => 'English','script' => 'Latn', 'native' => 'English', 'regional' => 'en_GB'],
         'es' => ['name' => 'Spanish','script' => 'Latn', 'native' => 'Español', 'regional' => 'es_ES'],
         'eu' => ['name' => 'Basque','script' => 'Latn', 'native' => 'Euskara', 'regional' => 'eu_ES'],
     ],

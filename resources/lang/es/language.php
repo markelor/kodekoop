@@ -11,7 +11,7 @@ return array(
     |
     */
 
-    'en' => 'Ingles',
+    //'en' => 'Ingles',
     'es' => 'Español',
     'eu' => 'Vasco',
 );
