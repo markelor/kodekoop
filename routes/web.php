@@ -23,13 +23,13 @@ function()
 	Route::get('/', function()
 	{
 		//return View::make('home.home');
-		return View::make('maintenance.maintenance');
+		return View::make('home.home');
 	});
 
-	Route::get('test',function(){
-		return View::make('test');
+	Route::get(LaravelLocalization::transRoute('routes.contact'), function() {
+		return View::make('contact.contact');
 	});
-
+	Route::post(LaravelLocalization::transRoute('routes.contact'), ['as' => 'routes.contact','uses' => 'Contact\ContactController@store']);
 
 });
 

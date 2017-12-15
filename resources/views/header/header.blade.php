@@ -62,8 +62,9 @@
                                                 <li><a class="dropdown-item" href="contact-us-advanced.php">@lang('menu.mantaince')</a></li>
                                             </ul>
                                         </li>
+                                        
                                         <li class="">
-                                            <a class="nav-link" href="demos.html">
+                                            <a class="nav-link" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.contact') )}}">
                                                 @lang('menu.contact')
                                             </a>
                                         </li>
