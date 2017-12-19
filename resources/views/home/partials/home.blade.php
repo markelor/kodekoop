@@ -2,7 +2,7 @@
     <div id="revolutionSlider" class="slider rev_slider" data-plugin-revolution-slider data-plugin-options="{'delay': 9000, 'gridwidth': 1170, 'gridheight': 500, 'disableProgressBar': 'on', 'responsiveLevels': [4096,1200,992,500]}">
         <ul>
             <li data-transition="fade">
-                <img src="img/slides/slide-bg.jpg"  
+                <img src="{{ asset('img/slides/slide-bg.jpg') }}"  
                     alt=""
                     data-bgposition="center center" 
                     data-bgfit="cover" 
@@ -13,7 +13,7 @@
                     data-x="177"
                     data-y="188"
                     data-start="1000"
-                    data-transform_in="x:[-300%];opacity:0;s:500;"><img src="img/slides/slide-title-border.png" alt=""></div>
+                    data-transform_in="x:[-300%];opacity:0;s:500;"><img src="{{ asset('img/slides/slide-title-border.png') }}" alt=""></div>
 
                 <div class="tp-caption top-label"
                     data-x="227"
@@ -25,7 +25,7 @@
                     data-x="480"
                     data-y="188"
                     data-start="1000"
-                    data-transform_in="x:[300%];opacity:0;s:500;"><img src="img/slides/slide-title-border.png" alt=""></div>
+                    data-transform_in="x:[300%];opacity:0;s:500;"><img src="{{ asset('img/slides/slide-title-border.png') }}" alt=""></div>
 
                 <div class="tp-caption main-label"
                     data-x="135"
@@ -47,31 +47,31 @@
                     data-x="['910','910','910','930']"
                     data-y="248"
                     data-start="2500"
-                    data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1300;"><img src="img/slides/slide-concept-2-1.png" alt=""></div>
+                    data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1300;"><img src="{{ asset('img/slides/slide-concept-2-1.png') }}" alt=""></div>
 
                 <div class="tp-caption"
                     data-x="['960','960','960','980']"
                     data-y="200"
                     data-start="3500"
-                    data-transform_in="y:[300%];opacity:0;s:300;"><img src="img/slides/slide-concept-2-2.png" alt=""></div>
+                    data-transform_in="y:[300%];opacity:0;s:300;"><img src="{{ asset('img/slides/slide-concept-2-2.png') }}" alt=""></div>
 
                 <div class="tp-caption"
                     data-x="['930','930','930','950']"
                     data-y="170"
                     data-start="3650"
-                    data-transform_in="y:[300%];opacity:0;s:300;"><img src="img/slides/slide-concept-2-3.png" alt=""></div>
+                    data-transform_in="y:[300%];opacity:0;s:300;"><img src="{{ asset('img/slides/slide-concept-2-3.png') }}" alt=""></div>
 
                 <div class="tp-caption"
                     data-x="['880','880','880','900']"
                     data-y="130"
                     data-start="3750"
-                    data-transform_in="y:[300%];opacity:0;s:300;"><img src="img/slides/slide-concept-2-4.png" alt=""></div>
+                    data-transform_in="y:[300%];opacity:0;s:300;"><img src="{{ asset('img/slides/slide-concept-2-4.png') }}" alt=""></div>
 
                 <div class="tp-caption"
                     data-x="['610','610','610','630']"
                     data-y="80"
                     data-start="3950"
-                    data-transform_in="y:[300%];opacity:0;s:300;"><img src="img/slides/slide-concept-2-5.png" alt=""></div>
+                    data-transform_in="y:[300%];opacity:0;s:300;"><img src="{{ asset('img/slides/slide-concept-2-5.png') }}" alt=""></div>
 
                 <div class="tp-caption blackboard-text"
                     data-x="['640','640','640','660']"
@@ -95,7 +95,7 @@
                     data-transform_in="y:[300%];opacity:0;s:300;">The box :)</div>
             </li>
             <li data-transition="fade">
-                <img src="img/slides/slide-bg.jpg"  
+                <img src="{{ asset('img/slides/slide-bg.jpg') }}"  
                     alt=""
                     data-bgposition="center center" 
                     data-bgfit="cover" 
@@ -106,7 +106,7 @@
                     data-x="['155','155','155','110']"
                     data-y="['100','100','100','150']"
                     data-start="500"
-                    data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;"><img src="img/slides/slide-concept.png" alt=""></div>
+                    data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;"><img src="{{ asset('img/slides/slide-concept.png') }}" alt=""></div>
 
                 <div class="tp-caption blackboard-text"
                     data-x="['285','285','285','225']"
@@ -205,19 +205,19 @@
             <span class="cloud"></span>
             <div class="col-lg-2 ml-lg-auto">
                 <div class="process-image">
-                    <img src="img/home-concept-item-1.png" alt="" />
+                    <img src="{{ asset('img/home-concept-item-1.png') }}" alt="" />
                     <strong>Strategy</strong>
                 </div>
             </div>
             <div class="col-lg-2">
                 <div class="process-image">
-                    <img src="img/home-concept-item-2.png" alt="" />
+                    <img src="{{ asset('img/home-concept-item-2.png') }}" alt="" />
                     <strong>Planning</strong>
                 </div>
             </div>
             <div class="col-lg-2">
                 <div class="process-image">
-                    <img src="img/home-concept-item-3.png" alt="" />
+                    <img src="{{ asset('img/home-concept-item-3.png') }}" alt="" />
                     <strong>Build</strong>
                 </div>
             </div>
@@ -225,9 +225,9 @@
                 <div class="project-image">
                     <div id="fcSlideshow" class="fc-slideshow">
                         <ul class="fc-slides">
-                            <li><a href="portfolio-single-small-slider.html"><img class="img-responsive" src="img/projects/project-home-1.jpg" alt="" /></a></li>
-                            <li><a href="portfolio-single-small-slider.html"><img class="img-responsive" src="img/projects/project-home-2.jpg" alt="" /></a></li>
-                            <li><a href="portfolio-single-small-slider.html"><img class="img-responsive" src="img/projects/project-home-3.jpg" alt="" /></a></li>
+                            <li><a href="portfolio-single-small-slider.html"><img class="img-responsive" src="{{ asset('img/projects/project-home-1.jpg') }}" alt="" /></a></li>
+                            <li><a href="portfolio-single-small-slider.html"><img class="img-responsive" src="{{ asset('img/projects/project-home-2.jpg') }}" alt="" /></a></li>
+                            <li><a href="portfolio-single-small-slider.html"><img class="img-responsive" src="{{ asset('img/projects/project-home-3.jpg') }}" alt="" /></a></li>
                         </ul>
                     </div>
                     <strong class="our-work">Our Work</strong>
@@ -404,28 +404,28 @@
     <div class="row text-center">
         <div class="owl-carousel owl-theme" data-plugin-options="{'items': 6, 'autoplay': true, 'autoplayTimeout': 3000}">
             <div>
-                <img class="img-fluid" src="img/logos/logo-1.png" alt="">
+                <img class="img-fluid" src="{{ asset('img/logos/logo-1.png') }}" alt="">
             </div>
             <div>
-                <img class="img-fluid" src="img/logos/logo-2.png" alt="">
+                <img class="img-fluid" src="{{ asset('img/logos/logo-2.png') }}" alt="">
             </div>
             <div>
-                <img class="img-fluid" src="img/logos/logo-3.png" alt="">
+                <img class="img-fluid" src="{{ asset('img/logos/logo-3.png') }}" alt="">
             </div>
             <div>
-                <img class="img-fluid" src="img/logos/logo-4.png" alt="">
+                <img class="img-fluid" src="{{ asset('img/logos/logo-4.png') }}" alt="">
             </div>
             <div>
-                <img class="img-fluid" src="img/logos/logo-5.png" alt="">
+                <img class="img-fluid" src="{{ asset('img/logos/logo-5.png') }}" alt="">
             </div>
             <div>
-                <img class="img-fluid" src="img/logos/logo-6.png" alt="">
+                <img class="img-fluid" src="{{ asset('img/logos/logo-6.png') }}" alt="">
             </div>
             <div>
-                <img class="img-fluid" src="img/logos/logo-4.png" alt="">
+                <img class="img-fluid" src="{{ asset('img/logos/logo-4.png') }}" alt="">
             </div>
             <div>
-                <img class="img-fluid" src="img/logos/logo-2.png" alt="">
+                <img class="img-fluid" src="{{ asset('img/logos/logo-2.png') }}" alt="">
             </div>
         </div>
     </div>
@@ -522,7 +522,7 @@
                                         <div class="testimonial-arrow-down"></div>
                                         <div class="testimonial-author">
                                             <div class="testimonial-author-thumbnail img-thumbnail">
-                                                <img src="img/clients/client-1.jpg" alt="">
+                                                <img src="{{ asset('img/clients/client-1.jpg') }}" alt="">
                                             </div>
                                             <p><strong>John Smith</strong><span>CEO & Founder - Okler</span></p>
                                         </div>
@@ -538,7 +538,7 @@
                                         <div class="testimonial-arrow-down"></div>
                                         <div class="testimonial-author">
                                             <div class="testimonial-author-thumbnail img-thumbnail">
-                                                <img src="img/clients/client-1.jpg" alt="">
+                                                <img src="{{ asset('img/clients/client-1.jpg') }}" alt="">
                                             </div>
                                             <p><strong>John Smith</strong><span>CEO & Founder - Okler</span></p>
                                         </div>

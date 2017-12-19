@@ -44,28 +44,29 @@
                                 <nav class="collapse">
                                     <ul class="nav nav-pills" id="mainNav">                          
                                         <li class="">
-                                            <a class="nav-link active" href="demos.html">
+                                            <a class="nav-link {{ Request::is(Config::get('app.locale')) ? 'active' : '' }}" href="{{ url('/')}}">
                                                 @lang('menu.home')
                                             </a>
                                         </li>
                                         <li class="">
-                                            <a class="nav-link" href="demos.html">
+                                            <a class="nav-link {{(url()->current() == LaravelLocalization::localizeURL(trans('routes.about-us'))) ? "active" : "" }}" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.about-us') )}}">
                                                 @lang('menu.about-us')
 
                                             </a>
                                         </li>
+
                                         <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="#">
+                                            <a class="dropdown-item dropdown-toggle {{(url()->current() == LaravelLocalization::localizeURL(trans('routes.web-pages'))) || (url()->current() == LaravelLocalization::localizeURL(trans('routes.maintenance'))) ? "active" : "" }}" href="#">
                                                 @lang('menu.services')
                                             </a>
                                             <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="contact-us.html">@lang('menu.web-pages')</a></li>
-                                                <li><a class="dropdown-item" href="contact-us-advanced.php">@lang('menu.mantaince')</a></li>
+                                                <li><a class="dropdown-item {{(url()->current() == LaravelLocalization::localizeURL(trans('routes.web-pages'))) ? "active" : "" }}" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.web-pages') )}}">@lang('menu.web-pages')</a></li>
+                                                <li><a class="dropdown-item {{(url()->current() == LaravelLocalization::localizeURL(trans('routes.maintenance'))) ? "active" : "" }}" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.maintenance') )}}">@lang('menu.maintenance')</a></li>
                                             </ul>
                                         </li>
                                         
                                         <li class="">
-                                            <a class="nav-link" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.contact') )}}">
+                                            <a class="nav-link {{(url()->current() == LaravelLocalization::localizeURL(trans('routes.contact'))) ? "active" : "" }}" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.contact') )}}">
                                                 @lang('menu.contact')
                                             </a>
                                         </li>

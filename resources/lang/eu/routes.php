@@ -11,7 +11,11 @@ return array(
     |
     */
 
-    'about' => 'nor-gara',
+
+    'about-us'=>'nor-gara',
+    'services'=>'zerbiztuak',
+    'web-pages'=>'web-orriak',
+    'maintenance'=>'manteinua',
     'contact' => 'kontaktua'
 
 );

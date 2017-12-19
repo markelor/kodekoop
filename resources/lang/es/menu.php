@@ -15,7 +15,7 @@ return array(
     'about-us'=>'Quienes Somos',
     'services'=>'Servicios',
     'web-pages'=>'Paginas Web',
-    'mantaince'=>'Mantenimiento',
+    'maintenance'=>'Mantenimiento',
     'contact' => 'Contacto',
     'language' => 'Español'
 

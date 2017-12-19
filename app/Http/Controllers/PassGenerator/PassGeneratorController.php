@@ -4,7 +4,7 @@ namespace App\Http\Controllers\PassGenerator;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Http\Request\PassGenerator\PassGeneratorRequest;
+use App\Http\Requests\PassGenerator\PassGeneratorRequest;
 
 class PassGeneratorController extends Controller
 {

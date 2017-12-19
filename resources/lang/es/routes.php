@@ -11,7 +11,10 @@ return array(
     |
     */
 
-    'about' => 'quienes-somos',
+    'about-us'=>'quienes-somos',
+    'services'=>'servicios',
+    'web-pages'=>'paginas-web',
+    'maintenance'=>'mantenimiento',
     'contact' => 'contacto'
 
 );

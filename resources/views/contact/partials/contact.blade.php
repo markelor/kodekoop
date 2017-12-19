@@ -34,38 +34,38 @@
           <span class="text-1 mt-2 d-block" id="mailErrorMessage"></span>
         </div>
 
-        <h2 class="mb-3 mt-2"><strong>Contact</strong> Us</h2>
+        <h2 class="mb-3 mt-2"><strong>@lang('contact.contact')</strong></h2>
                 
         {!!Form::open(['id'=>'contactForm','name'=>'contactForm'])!!}
           <div class="form-row">
             <div class="form-group col-lg-6">
-              <label>Your name *</label>
+              <label>@lang('contact.name-username') *</label>
               {!!Form::text('name',null,['id'=>'name','class'=>'form-control','data-msg-required'=>'Please enter your name.','maxlength'=>'100','required' => ''])!!}
             </div>
             <div class="form-group col-lg-6">
-             <label>Subject</label>
+             <label>@lang('contact.subject')</label>
               {!!Form::text('subject',null,['id'=>'subject','class'=>'form-control','data-msg-required'=>'Please enter the subject.','maxlength'=>'100','required' => ''])!!}      
             </div>
           </div>
           <div class="form-row">
             <div class="form-group col-lg-6">
-             <label>Your email address *</label>
+             <label>@lang('contact.email') *</label>
               {!!Form::email('email',null,['id'=>'email','class'=>'form-control','data-msg-required'=>'Please enter your email address.','maxlength'=>'100','required' => ''])!!}
             </div>
             <div class="form-group col-lg-6">
-             <label>Phone *</label>
+             <label>@lang('contact.phone') *</label>
               {!!Form::text('phone',null,['id'=>'phone','class'=>'form-control','data-msg-required'=>'Please enter your phone.','maxlength'=>'9','required' => ''])!!}
             </div>
           </div>
           <div class="form-row">
             <div class="form-group col">
-              <label>Message *</label>
+              <label>@lang('contact.message') *</label>
               {!!Form::textarea('message',null,['id'=>'message','class'=>'form-control','data-msg-required'=>'Please enter your message.','maxlength'=>'5000','rows' => '10','required' => ''])!!}
             </div>
           </div>
           <div class="form-row">
             <div class="form-group col">
-              {!!Form::button('Send', ['name'=>'send','id'=>'send','class'=>'btn btn-primary btn-lg','data-loading-text'=>'Loading...'])!!}
+              {!!Form::button(trans('contact.send'), ['name'=>'send','id'=>'send','class'=>'btn btn-primary btn-lg','data-loading-text'=>'Loading...'])!!}
             </div>
           </div>
         {!!Form::close()!!}
@@ -131,7 +131,7 @@ $("#send").click(function(event) {
 
             if (data.success == 'true') {
                 $(".form-control").val('');
-                $("#contactForm").reset();
+                $("#contactForm").trigger("reset");
             }
             form_btn.prop('disabled', false).html(form_btn_old_msg);
             $(form_result_div).html("<div class='formSent'><strong>Zure mezua bidali da!</strong> Eskerrik asko gurekin harremanetan jartzeagatik.</div>").fadeIn('slow');

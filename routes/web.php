@@ -25,6 +25,18 @@ function()
 		//return View::make('home.home');
 		return View::make('home.home');
 	});
+	Route::get(LaravelLocalization::transRoute('routes.about-us'), function() {
+		return View::make('home.home');
+	});
+	Route::get(LaravelLocalization::transRoute('routes.services'), function() {
+		return View::make('home.home');
+	});
+	Route::get(LaravelLocalization::transRoute('routes.web-pages'), function() {
+		return View::make('home.home');
+	});
+	Route::get(LaravelLocalization::transRoute('routes.maintenance'), function() {
+		return View::make('home.home');
+	});
 
 	Route::get(LaravelLocalization::transRoute('routes.contact'), function() {
 		return View::make('contact.contact');
@@ -33,4 +45,3 @@ function()
 	Route::post('/passGenerator', ['as' => 'passGenerator','uses' => 'PassGenerator\PassGeneratorController@store' ]);
 
 });
-

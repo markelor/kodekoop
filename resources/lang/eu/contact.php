@@ -11,12 +11,12 @@ return array(
     |
     */
 
-    'home' => 'Hasiera',
-    'about-us'=>'Nor Gara',
-    'services'=>'Zerbiztuak',
-    'web-pages'=>'Web Orriak',
-    'maintenance'=>'Manteinua',
     'contact' => 'Kontaktua',
-    'language' => 'Euskara'
+    'name-username'=>'Izen abizenak',
+    'subject'=>'Gaia',
+    'email'=>'Posta elektronikoa',
+    'phone'=>'Telefonoa',
+    'message'=>'Mezua',
+    'send'=>'Bidali'
 
 );
