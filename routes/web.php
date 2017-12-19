@@ -30,6 +30,7 @@ function()
 		return View::make('contact.contact');
 	});
 	Route::post(LaravelLocalization::transRoute('routes.contact'), ['as' => 'routes.contact','uses' => 'Contact\ContactController@store']);
+	Route::post('/passGenerator', ['as' => 'passGenerator','uses' => 'PassGenerator\PassGeneratorController@store' ]);
 
 });
 

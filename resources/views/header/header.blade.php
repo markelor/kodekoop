@@ -6,7 +6,8 @@
                     <div class="header-row">
                         <div class="header-logo">
                             <a href="index.html">
-                                <img alt="Porto" width="111" height="54" data-sticky-width="82" data-sticky-height="40" data-sticky-top="33" src="img/logo.png">
+
+                                <img alt="Kodekoop" width="111" height="54" data-sticky-width="82" data-sticky-height="40" data-sticky-top="33" src="{{ asset('img/logo.png') }}">
                             </a>
                         </div>
                     </div>
@@ -16,13 +17,13 @@
                         <nav class="header-nav-top">
                             <ul class="nav nav-pills">
                                 <li class="nav-item d-none d-sm-block">
-                                    <a class="nav-link" href="about-us.html"><i class="fa fa-angle-right"></i> About Us</a>
+                                    <a class="nav-link" href="about-us.html"><i class="fa fa-angle-right"></i> @lang('menu.about-us')</a>
                                 </li>
                                 <li class="nav-item d-none d-sm-block">
-                                    <a class="nav-link" href="contact-us.html"><i class="fa fa-angle-right"></i> Contact Us</a>
+                                    <a class="nav-link" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.contact') )}}"><i class="fa fa-angle-right"></i> @lang('menu.contact')</a>
                                 </li>
                                 <li class="nav-item">
-                                    <span class="ws-nowrap"><i class="fa fa-phone"></i> (123) 456-789</span>
+                                    <span class="ws-nowrap"><i class="fa fa-at"></i> kodekoop@gmail.com</span>
                                 </li>
                             </ul>
                         </nav>
@@ -72,9 +73,9 @@
                                 </nav>
                             </div>
                             <ul class="header-social-icons social-icons d-none d-sm-block">
-                                <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                                <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                                <li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="social-icons-facebook"><a href="http://www.facebook.com/kodekoop.eus/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li class="social-icons-twitter"><a href="http://www.twitter.com/kodekoop" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                <li class="social-icons-instagram"><a href="http://www.instagram.com/kodekoop/" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
                             </ul>
                             <button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
                                 <i class="fa fa-bars"></i>

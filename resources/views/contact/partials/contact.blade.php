@@ -73,7 +73,9 @@
       <div class="col-lg-6">
         <h4 class="heading-primary mt-4">Get in <strong>Touch</strong></h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
+        {!!Form::open(['id'=>'passGeneratorForm','name'=>'passGeneratorForm'])!!}
+        {!!Form::button('Sakatu hemen Markel!', ['class' => 'btn','id'=>'passGenerator'])!!}
+        {!!Form::close()!!}
         <hr>
 
         <h4 class="heading-primary">The <strong>Office</strong></h4>
@@ -129,7 +131,7 @@ $("#send").click(function(event) {
 
             if (data.success == 'true') {
                 $(".form-control").val('');
-                document.getElementById("contactForm").reset();
+                $("#contactForm").reset();
             }
             form_btn.prop('disabled', false).html(form_btn_old_msg);
             $(form_result_div).html("<div class='formSent'><strong>Zure mezua bidali da!</strong> Eskerrik asko gurekin harremanetan jartzeagatik.</div>").fadeIn('slow');
@@ -141,12 +143,32 @@ $("#send").click(function(event) {
             var form_btn_old_msg = form_btn.html();
             form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
             form_btn.prop('disabled', false).html(form_btn_old_msg);
-            $(form_result_div).html("<div class='formSent'><strong>Akatsa mezua bidaltzerakoan!</strong> Mesedez, sahiatu zaitez berriz.</div>").fadeIn('slow');
+            $(form_result_div).html("<div class='formSent'><strong>Akatsa mezua bidaltzerakoan!</strong> Mesedez, saiatu zaitez berriz.</div>").fadeIn('slow');
             setTimeout(function() { $(form_result_div).fadeOut('slow'); }, 6000);
         }
     });
 
 });
+
+$("#passGenerator").click(function(event) {
+  console.log('pass');
+  var token = $("input[name=_token]").val();
+  var route = "./passGenerator";
+  var length = 4;
+  $.ajax({
+        url:route,
+        headers:{'X-CSRF-TOKEN':token},
+        type:'post',
+        datatype: 'json',
+        data:{length: length},
+        success: function(data) {
+          console.log(data);
+        },
+        error: function(data){
+          console.log("error");
+        }
+      });
+  });
 </script>
          
   
