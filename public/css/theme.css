@@ -31,6 +31,11 @@ li {
 	body {
 		font-size: 13px;
 	}
+	#header .header-row {
+	    display: block !important;
+	    align-self: center !important;
+
+	}
 }
 /* Header */
 #header {
