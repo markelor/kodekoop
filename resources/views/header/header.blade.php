@@ -7,7 +7,7 @@
                         <div class="header-logo">
                             <a href="index.html">
 
-                                <img alt="Kodekoop" width="111" height="54" data-sticky-width="82" data-sticky-height="40" data-sticky-top="33" src="{{ asset('img/logo.png') }}">
+                                <img alt="Kodekoop" width="260" height="54" data-sticky-top="33" src="{{ asset('img/logo.png') }}">
                             </a>
                         </div>
                     </div>
