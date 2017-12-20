@@ -73,7 +73,7 @@
         <script src="{{ asset('vendor/popper/umd/popper.min.js') }}"></script>
         <script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
         <script src="{{ asset('vendor/common/common.min.js') }}"></script>
-        <script src="{{ asset('vendor/jquery.validation/jquery.validation.min.js') }}"></script>
+        <script src="{{ asset('vendor/jquery.validation/jquery.validation.js') }}"></script>
         <script src="{{ asset('vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js') }}"></script>
         <script src="{{ asset('vendor/jquery.gmap/jquery.gmap.min.js') }}"></script>
         <script src="{{ asset('vendor/jquery.lazyload/jquery.lazyload.min.js') }}"></script>

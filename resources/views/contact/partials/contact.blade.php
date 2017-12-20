@@ -101,11 +101,13 @@
   </div>
 
 </div>
+
 <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
+
 <script>
 // SESERVATION TABLE
 $("#send").click(function(event) {
-  console.log("hemen gaude");
+     $("#contactForm").valid();
     var token = $("input[name=_token]").val();
     var name = $("#name").val();
     var subject = $("#subject").val();
@@ -117,7 +119,7 @@ $("#send").click(function(event) {
     var form_result_div = '#form-result';
 
     $(form_result_div).remove();
-    
+ 
     $.ajax({
         url:route,
         headers:{'X-CSRF-TOKEN':token},

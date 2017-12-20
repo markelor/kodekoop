@@ -1376,6 +1376,7 @@ $.extend( $.validator, {
 
 		// https://jqueryvalidation.org/email-method/
 		email: function( value, element ) {
+			console.log("flipi");
 
 			// From https://html.spec.whatwg.org/multipage/forms.html#valid-e-mail-address
 			// Retrieved 2014-01-14
