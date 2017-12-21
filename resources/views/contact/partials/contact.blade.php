@@ -50,11 +50,11 @@
           <div class="form-row">
             <div class="form-group col-lg-6">
              <label>@lang('contact.email') *</label>
-              {!!Form::email('email',null,['id'=>'email','class'=>'form-control','data-msg-required'=>'Please enter your email address.','maxlength'=>'100','required' => ''])!!}
+              {!!Form::email('email',null,['id'=>'email','class'=>'form-control','data-msg-required'=>trans('validation.email'),'maxlength'=>'100','required' => ''])!!}
             </div>
             <div class="form-group col-lg-6">
              <label>@lang('contact.phone') *</label>
-              {!!Form::text('phone',null,['id'=>'phone','class'=>'form-control','data-msg-required'=>'Please enter your phone.','maxlength'=>'9','required' => ''])!!}
+              {!!Form::number('phone',null,['id'=>'phone','class'=>'form-control','data-msg-required'=>'Please enter your phone.','data-rule-minlength'=>'2','data-rule-maxlength'=>'8','data-msg-minlength'=>'At least two chars.','data-msg-maxlength'=>'At most fours chars.','required' => ''])!!}
             </div>
           </div>
           <div class="form-row">
@@ -136,7 +136,7 @@ $("#send").click(function(event) {
                 $("#contactForm").trigger("reset");
             }
             form_btn.prop('disabled', false).html(form_btn_old_msg);
-            $(form_result_div).html("<div class='formSent'><strong>Zure mezua bidali da!</strong> Eskerrik asko gurekin harremanetan jartzeagatik.</div>").fadeIn('slow');
+            $(form_result_div).html("<div class='formSent'><strong>"+"@lang('contact.form-success-strong')"+"</strong>"+" " +"@lang('contact.form-success')"+"</div>").fadeIn('slow');
             setTimeout(function() { $(form_result_div).fadeOut('slow'); }, 6000);
         },
         error: function(data) {
@@ -145,7 +145,7 @@ $("#send").click(function(event) {
             var form_btn_old_msg = form_btn.html();
             form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
             form_btn.prop('disabled', false).html(form_btn_old_msg);
-            $(form_result_div).html("<div class='formSent'><strong>Akatsa mezua bidaltzerakoan!</strong> Mesedez, saiatu zaitez berriz.</div>").fadeIn('slow');
+            $(form_result_div).html("<div class='formSent'><strong>"+"@lang('contact.form-error-strong')"+"</strong>" +" "+"@lang('contact.form-error')"+"</div>").fadeIn('slow');
             setTimeout(function() { $(form_result_div).fadeOut('slow'); }, 6000);
         }
     });

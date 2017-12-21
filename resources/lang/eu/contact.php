@@ -17,6 +17,10 @@ return array(
     'email'=>'Posta elektronikoa',
     'phone'=>'Telefonoa',
     'message'=>'Mezua',
-    'send'=>'Bidali'
+    'send'=>'Bidali',
+    'form-error-strong'=>'Akatsa mezua bidaltzerakoan!',
+    'form-error'=>'Mesedez, saiatu zaitez berriz.',
+    'form-success-strong'=>'Zure mezua bidali da!',
+    'form-success'=>'Eskerrik asko gurekin harremanetan jartzeagatik.'
 
 );

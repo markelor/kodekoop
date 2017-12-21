@@ -93,6 +93,7 @@
         
         <!-- Theme Custom -->
         <script src="{{ asset('js/custom.js') }}"></script>
+        <script src="{{ asset('js/views/view.contact.js') }}"></script>
         
         <!-- Theme Initialization Files -->
         <script src="{{ asset('js/theme.init.js') }}"></script>
