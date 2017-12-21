@@ -40,27 +40,27 @@
           <div class="form-row">
             <div class="form-group col-lg-6">
               <label>@lang('contact.name-username') *</label>
-              {!!Form::text('name',null,['id'=>'name','class'=>'form-control','data-msg-required'=>'Please enter your name.','maxlength'=>'100','required' => ''])!!}
+              {!!Form::text('name',null,['id'=>'name','class'=>'form-control','data-msg-required'=>trans('validation.name.data-msg-required'),'data-msg-minlength'=>trans('validation.name.data-msg-minlength'),'minlength'=>'3','maxlength'=>'50','required' => ''])!!}
             </div>
             <div class="form-group col-lg-6">
-             <label>@lang('contact.subject')</label>
-              {!!Form::text('subject',null,['id'=>'subject','class'=>'form-control','data-msg-required'=>'Please enter the subject.','maxlength'=>'100','required' => ''])!!}      
+             <label>@lang('contact.subject') *</label>
+              {!!Form::text('subject',null,['id'=>'subject','class'=>'form-control','data-msg-required'=>trans('validation.subject.data-msg-required'),'maxlength'=>'100','required' => ''])!!}      
             </div>
           </div>
           <div class="form-row">
             <div class="form-group col-lg-6">
              <label>@lang('contact.email') *</label>
-              {!!Form::email('email',null,['id'=>'email','class'=>'form-control','data-msg-required'=> trans('validation.email'),'maxlength'=>'100','required' => ''])!!}
+              {!!Form::email('email',null,['id'=>'email','class'=>'form-control','data-msg-required'=>trans('validation.email.data-msg-required'),'data-msg-email'=>trans('validation.email.data-msg-email'),'maxlength'=>'100','required' => ''])!!}
             </div>
             <div class="form-group col-lg-6">
              <label>@lang('contact.phone') *</label>
-              {!!Form::number('phone',null,['id'=>'phone','class'=>'form-control','data-msg-required'=>'Please enter your phone.','data-rule-minlength'=>'2','data-rule-maxlength'=>'8','data-msg-minlength'=>'At least two chars.','data-msg-maxlength'=>'At most fours chars.','required' => ''])!!}
+              {!!Form::text('phone',null,['id'=>'phone','class'=>'form-control','data-msg-required'=>trans('validation.phone.data-msg-required'),'data-msg-digits'=>trans('validation.phone.data-msg-digits'),'data-msg-minlength'=>trans('validation.phone.data-msg-minlength'),'data-msg-maxlength'=>trans('validation.phone.data-msg-maxlength'),'data-rule-minlength'=>'9','data-rule-maxlength'=>'12','data-rule-digits'=>'true','required' => ''])!!}
             </div>
           </div>
           <div class="form-row">
             <div class="form-group col">
               <label>@lang('contact.message') *</label>
-              {!!Form::textarea('message',null,['id'=>'message','class'=>'form-control','data-msg-required'=>'Please enter your message.','maxlength'=>'5000','rows' => '10','required' => ''])!!}
+              {!!Form::textarea('message',null,['id'=>'message','class'=>'form-control','data-msg-required'=>trans('validation.message.data-msg-required'),'maxlength'=>'5000','rows' => '10','required' => ''])!!}
             </div>
           </div>
           <div class="form-row">
