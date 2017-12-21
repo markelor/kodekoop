@@ -13,19 +13,23 @@ Theme Version:	6.0.0
 	*/
 	
 	// No White Space
+	
+	/*
 	$.validator.addMethod("noSpace", function(value, element) {
-    	return value.search(/[a-z0-9]/i) == 0;
+    	return value.search(/[a-z0-9\]/i) == 0;
 	}, 'Please fill this required field.');
-
+	
+	*/
 	/*
 	Assign Custom Rules on Fields
 	*/
+	/*
 	$.validator.addClassRules({
 	    'form-control': {
 	        noSpace: true
 	    }
 	});
-
+	*/
 	/*
 	Contact Form: Basic
 	*/
