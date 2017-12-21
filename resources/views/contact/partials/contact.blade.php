@@ -4,21 +4,13 @@
       <div class="row">
         <div class="col">
           <ul class="breadcrumb">
-            <li><a href="#">Home</a></li>
-            <li class="active">Contact Us</li>
+            <li><a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.home') )}}">@lang('menu.home')</a></li>
+            <li class="active">@lang('menu.contact')</li>
           </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <h1>Contact Us</h1>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
-  <div id="googlemaps" class="google-map"></div>
 
   <div class="container">
 
@@ -71,29 +63,14 @@
         {!!Form::close()!!}
       </div>
       <div class="col-lg-6">
-        <h4 class="heading-primary mt-4">Get in <strong>Touch</strong></h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h4 class="heading-primary mt-4">@lang('contact.get-in-touch-title')</h4>
+        <p>@lang('contact.get-in-touch-body')</p>
         {!!Form::open(['id'=>'passGeneratorForm','name'=>'passGeneratorForm'])!!}
-        {!!Form::button('Sakatu hemen Markel!', ['class' => 'btn','id'=>'passGenerator'])!!}
+        {!!Form::button('Pasahitza sortu!', ['class' => 'btn','id'=>'passGenerator'])!!}
         {!!Form::close()!!}
+        
+        {!!Form::text('password', null,['id' => 'password','class'=>'form-control'])!!}
         <hr>
-
-        <h4 class="heading-primary">The <strong>Office</strong></h4>
-        <ul class="list list-icons list-icons-style-3 mt-4">
-          <li><i class="fa fa-map-marker"></i> <strong>Address:</strong> 1234 Street Name, City Name, United States</li>
-          <li><i class="fa fa-phone"></i> <strong>Phone:</strong> (123) 456-789</li>
-          <li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:mail@example.com">mail@example.com</a></li>
-        </ul>
-
-        <hr>
-
-        <h4 class="heading-primary">Business <strong>Hours</strong></h4>
-        <ul class="list list-icons list-dark mt-4">
-          <li><i class="fa fa-clock-o"></i> Monday - Friday - 9am to 5pm</li>
-          <li><i class="fa fa-clock-o"></i> Saturday - 9am to 2pm</li>
-          <li><i class="fa fa-clock-o"></i> Sunday - Closed</li>
-        </ul>
-
       </div>
 
     </div>
@@ -165,6 +142,7 @@ $("#passGenerator").click(function(event) {
         data:{length: length},
         success: function(data) {
           console.log(data);
+          $('#password').val(data)
         },
         error: function(data){
           console.log("error");

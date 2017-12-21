@@ -5,7 +5,7 @@
                 <div class="header-column">
                     <div class="header-row">
                         <div class="header-logo">
-                            <a href="index.html">
+                            <a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.home') )}}">
 
                                 <img alt="Kodekoop" width="220" height="54" data-sticky-top="33" src="{{ asset('img/logo.png') }}">
                             </a>
@@ -17,7 +17,7 @@
                         <nav class="header-nav-top">
                             <ul class="nav nav-pills">
                                 <li class="nav-item d-none d-sm-block">
-                                    <a class="nav-link" href="about-us.html"><i class="fa fa-angle-right"></i> @lang('menu.about-us')</a>
+                                    <a class="nav-link" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.about-us') )}}"><i class="fa fa-angle-right"></i> @lang('menu.about-us')</a>
                                 </li>
                                 <li class="nav-item d-none d-sm-block">
                                     <a class="nav-link" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.contact') )}}"><i class="fa fa-angle-right"></i> @lang('menu.contact')</a>
@@ -41,16 +41,6 @@
                                 </li>
                             </ul>
                         </nav>
-                        <div class="header-search d-none d-md-block">
-                            <form id="searchForm" action="page-search-results.html" method="get">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" name="q" id="q" placeholder="Search..." required>
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-light" type="submit"><i class="fa fa-search"></i></button>
-                                    </span>
-                                </div>
-                            </form>
-                        </div>
                     </div>
                     <div class="header-row">
                         <div class="header-nav">
