@@ -50,7 +50,7 @@
           <div class="form-row">
             <div class="form-group col-lg-6">
              <label>@lang('contact.email') *</label>
-              {!!Form::email('email',null,['id'=>'email','class'=>'form-control','data-msg-required'=>trans('validation.email'),'maxlength'=>'100','required' => ''])!!}
+              {!!Form::email('email',null,['id'=>'email','class'=>'form-control','data-msg-required'=> trans('validation.email'),'maxlength'=>'100','required' => ''])!!}
             </div>
             <div class="form-group col-lg-6">
              <label>@lang('contact.phone') *</label>
