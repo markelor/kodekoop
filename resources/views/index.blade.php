@@ -35,7 +35,6 @@
         <link rel="stylesheet" href="{{ asset('vendor/owl.carousel/assets/owl.carousel.min.css') }}">
         <link rel="stylesheet" href="{{ asset('vendor/owl.carousel/assets/owl.theme.default.min.css') }}">
         <link rel="stylesheet" href="{{ asset('vendor/magnific-popup/magnific-popup.min.css') }}">
-
         <!-- Current Page CSS -->
         <link rel="stylesheet" href="{{ asset('vendor/rs-plugin/css/settings.css') }}">
         <link rel="stylesheet" href="{{ asset('vendor/rs-plugin/css/layers.css') }}">
