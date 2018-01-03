@@ -58,8 +58,14 @@
 
                                             </a>
                                         </li>
+                                        <li class="">
+                                            <a class="nav-link {{(url()->current() == LaravelLocalization::localizeURL(trans('routes.services'))) ? "active" : "" }}" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.services') )}}">
+                                                @lang('menu.services')
 
-                                        <li class="dropdown">
+                                            </a>
+                                        </li>
+
+                                        {{--<li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle {{(url()->current() == LaravelLocalization::localizeURL(trans('routes.web-pages'))) || (url()->current() == LaravelLocalization::localizeURL(trans('routes.maintenance'))) ? "active" : "" }}" href="#">
                                                 @lang('menu.services')
                                             </a>
@@ -68,6 +74,7 @@
                                                 <li><a class="dropdown-item {{(url()->current() == LaravelLocalization::localizeURL(trans('routes.maintenance'))) ? "active" : "" }}" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.maintenance') )}}">@lang('menu.maintenance')</a></li>
                                             </ul>
                                         </li>
+                                        --}}
                                         <li class="">
                                             <a class="nav-link {{(url()->current() == LaravelLocalization::localizeURL(trans('routes.projects'))) ? "active" : "" }}" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.projects') )}}">
                                                 @lang('menu.projects')

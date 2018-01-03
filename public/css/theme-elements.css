@@ -4717,8 +4717,8 @@ html.boxed .pricing-table .plan, html.boxed .pricing-table h3 {
 	position: relative;
 	z-index: 1;
 	color: #FFF;
-	font-size: 40px;
-	line-height: 110px;
+	font-size: 40px !important;
+	line-height: 110px !important;
 }
 
 .icon-featured:after {
@@ -5858,6 +5858,7 @@ html.webkit .thumb-info-no-borders .thumb-info-wrapper {
 }
 
 .thumb-info-social-icons a {
+	padding-top: 7px;
 	background: #CCC;
 	border-radius: 25px;
 	display: inline-block;

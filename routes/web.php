@@ -31,14 +31,14 @@ function()
 	Route::get(LaravelLocalization::transRoute('routes.services'), function() {
 		return View::make('home.home');
 	});
-	Route::get(LaravelLocalization::transRoute('routes.web-pages'), function() {
+	/*Route::get(LaravelLocalization::transRoute('routes.web-pages'), function() {
 		return View::make('home.home');
 	});
 	Route::get(LaravelLocalization::transRoute('routes.maintenance'), function() {
 		return View::make('home.home');
-	});
+	});*/
 	Route::get(LaravelLocalization::transRoute('routes.services'), function() {
-		return View::make('home.home');
+		return View::make('services.services');
 	});
 	Route::get(LaravelLocalization::transRoute('routes.projects'), function() {
 		return View::make('projects.projects');
