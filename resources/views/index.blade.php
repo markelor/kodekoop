@@ -34,8 +34,10 @@
         <!-- Theme CSS -->
         <link rel="stylesheet" href="{{ asset('css/theme.css') }}">
         <link rel="stylesheet" href="{{ asset('css/theme-elements.css') }}">
+        <!--
         <link rel="stylesheet" href="{{ asset('css/theme-blog.css') }}">
         <link rel="stylesheet" href="{{ asset('css/theme-shop.css') }}">
+        -->
 
         <!-- Current Page CSS -->
         <link rel="stylesheet" href="{{ asset('vendor/rs-plugin/css/settings.css') }}">

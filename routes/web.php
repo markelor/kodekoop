@@ -26,7 +26,7 @@ function()
 		return View::make('home.home');
 	});
 	Route::get(LaravelLocalization::transRoute('routes.about-us'), function() {
-		return View::make('home.home');
+		return View::make('about-us.about-us');
 	});
 	Route::get(LaravelLocalization::transRoute('routes.services'), function() {
 		return View::make('home.home');
