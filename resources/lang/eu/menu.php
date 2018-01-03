@@ -17,6 +17,8 @@ return array(
     'web-pages'=>'Web Orriak',
     'maintenance'=>'Manteinua',
     'contact' => 'Kontaktua',
+    'projects' => 'Proiektuak',
+    'project1' => 'Proiektua1',
     'language' => 'Euskara'
 
 );

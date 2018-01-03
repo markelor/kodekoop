@@ -37,7 +37,15 @@ function()
 	Route::get(LaravelLocalization::transRoute('routes.maintenance'), function() {
 		return View::make('home.home');
 	});
-
+	Route::get(LaravelLocalization::transRoute('routes.services'), function() {
+		return View::make('home.home');
+	});
+	Route::get(LaravelLocalization::transRoute('routes.projects'), function() {
+		return View::make('projects.projects');
+	});
+	Route::get(LaravelLocalization::transRoute('routes.projects').'/'.LaravelLocalization::transRoute('routes.project1'), function() {
+		return View::make('projects.project1');
+	});
 	Route::get(LaravelLocalization::transRoute('routes.contact'), function() {
 		return View::make('contact.contact');
 	});

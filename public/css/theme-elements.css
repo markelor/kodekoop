@@ -5452,7 +5452,7 @@ html.boxed .pricing-table .plan, html.boxed .pricing-table h3 {
 	font-size: 24px;
 	left: 3px;
 	position: relative;
-	top: -4px;
+	top: 10px;
 	color: #FFF;
 }
 
@@ -6532,6 +6532,7 @@ section.timeline .timeline-box .owl-carousel {
 	height: 30px;
 	line-height: 30px;
 	width: 30px;
+	padding-top: 6px;
 	text-align: center;
 	color: #333 !important;
 	text-decoration: none;

@@ -15,6 +15,8 @@ return array(
     'services'=>'servicios',
     'web-pages'=>'paginas-web',
     'maintenance'=>'mantenimiento',
+    'projects'=>'proyectos',
+    'project1'=>'proyecto1',
     'contact' => 'contacto'
 
 );
