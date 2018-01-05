@@ -24,6 +24,7 @@ return array(
     'seo-short-description'=>' Donec id elit non mi porta gravida at eget metus. Fusce dapibus.',
     'stats-short-description'=>' Donec id elit non mi porta gravida at eget metus. Fusce dapibus.',
     'photographs-short-description'=>'Donec id elit non mi porta gravida at eget metus. Fusce dapibus.',
-    'read-more'=>'Leer Más'
+    'read-more'=>'Leer Más',
+    'contact-us'=>'Contáctanos'
 
 );
