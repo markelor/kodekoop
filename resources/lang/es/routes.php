@@ -17,6 +17,11 @@ return array(
     'maintenance'=>'mantenimiento',
     'projects'=>'proyectos',
     'project1'=>'proyecto1',
-    'contact' => 'contacto'
+    'contact' => 'contacto',
+    'domain'=>'dominio',
+    'hosting'=>'hosting',
+    'seo'=>'posicionamiento',
+    'stats'=>'estadisticas',
+    'photographs'=>'fotografias'
 
 );

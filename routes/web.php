@@ -40,11 +40,17 @@ function()
 	Route::get(LaravelLocalization::transRoute('routes.services'), function() {
 		return View::make('services.services');
 	});
+	Route::get(LaravelLocalization::transRoute('routes.services').'/'.LaravelLocalization::transRoute('routes.domain'), function() {
+		return View::make('services.single-service.domain');
+	});
+	Route::get(LaravelLocalization::transRoute('routes.services').'/'.LaravelLocalization::transRoute('routes.hosting'), function() {
+		return View::make('services.single-service.hosting');
+	});
 	Route::get(LaravelLocalization::transRoute('routes.projects'), function() {
 		return View::make('projects.projects');
 	});
 	Route::get(LaravelLocalization::transRoute('routes.projects').'/'.LaravelLocalization::transRoute('routes.project1'), function() {
-		return View::make('projects.project1');
+		return View::make('projects.single-projects.project1');
 	});
 	Route::get(LaravelLocalization::transRoute('routes.contact'), function() {
 		return View::make('contact.contact');

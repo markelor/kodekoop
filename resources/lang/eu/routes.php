@@ -18,6 +18,11 @@ return array(
     'maintenance'=>'manteinua',
     'projects'=>'proiektuak',
     'project1'=>'proiektua1',
-    'contact' => 'kontaktua'
+    'contact' => 'kontaktua',
+    'domain'=>'domeinua',
+    'hosting'=>'hostinga',
+    'seo'=>'posizionamentua',
+    'stats'=>'estatistikak',
+    'photographs'=>'argazkiak',
 
 );

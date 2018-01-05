@@ -10,7 +10,7 @@
 @endsection
 
 @section('content')
-    @include('projects.single-project.project1')
+    @include('services.single-service.partials.hosting')
 @endsection
 @section('footer')
     @include('footer.footer')
