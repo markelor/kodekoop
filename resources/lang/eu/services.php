@@ -26,18 +26,62 @@ return array(
     'read-more'=>'Gehiago Irakurri',
     'contact-us'=>'Jar zaitez gurekin harremanetan',
     'domain-what-is'=>'Zer da?',
-    'domain-what-is-description'=>'Garatu dugun web orriak interneten presentzia izan dezan, bere izaerarekin bat datorren eta ongi definitzen duen izen bat eta bakarra emango zaio. Izen honi, domeinua deitzen zaio.
-        Domenu bat hiru zati ezberdinetan banatzen da:
-        Inizialak: www ingelsezko World Wide Web edo mundu zabaleko weba.
-        Izena: Orria definitzen duen hitza.
-        Luzapena: Domeinuari bukaeran eransten zaizkion letrek osatzen dute, horien artean ezagunenak hauek dira:
-        .com: Helburu komertzialetara bideraturiko web orriak, erreputazio haundiena dutenak dira.
-        .net: Sare eta teknologia alorretarako erabiltzen da.
-        .org: Antolakuntza taldeetarako egokia.
-        .info: Informazio ornitzaileentzako erabilia.
-        .gov: Gobernu osatzen dueten taldeentzako.
-        .eus: Euskara oinarritzat duten tokientzako.
-        .es: Gaztelerazko edukia dutenentzat.',
+    'domain-what-is-descriptions'=> [
+        [
+            'text'=>'Garatu dugun web orriak interneten presentzia izan dezan, bere izaerarekin bat datorren eta ongi definitzen duen izen bat eta bakarra emango zaio. Izen honi, domeinua deitzen zaio. Domenu bat hiru zati ezberdinetan banatzen da:',
+            'lists'=>[
+                [
+                    'title'=>'Inizialak:',
+                    'body'=>'www ingelsezko World Wide Web edo mundu zabaleko weba.',
+                    'sublists'=>[]
+                ],
+                [
+                    'title'=>'Izena:',
+                    'body'=>'Orria definitzen duen hitza.',
+                    'sublists'=>[]
+                ],
+                [
+                    'title'=>'Luzapena:',
+                    'body'=>'Domeinuari bukaeran eransten zaizkion letrek osatzen dute, horien artean ezagunenak hauek dira:',
+                    'sublists'=>[
+                        [
+                            'title'=>'.com',
+                            'body'=>'Helburu komertzialetara bideraturiko web orriak, erreputazio haundiena dutenak dira.',
+                        ],
+                        [
+                            'title'=>'.net',
+                            'body'=>'Sare eta teknologia alorretarako erabiltzen da.',
+                        ],
+                        [
+                            'title'=>'.org',
+                            'body'=>'Antolakuntza taldeetarako egokia.',
+                        ],
+                        [
+                            'title'=>'.info',
+                            'body'=>'Informazio ornitzaileentzako erabilia.',
+                        ],
+                        [
+                            'title'=>'.gov',
+                            'body'=>'Gobernu osatzen dueten taldeentzako.',
+                        ],
+                        [
+                            'title'=>'.eus',
+                            'body'=>'Euskara oinarritzat duten tokientzako.',
+                        ],
+                        [
+                            'title'=>'.es',
+                            'body'=>'Gaztelerazko edukia dutenentzat.',
+                        ],
+                    ]
+                ],
+            ],
+        ],
+        [
+            'text'=>'Ondoren textu gehiago sartu nahi izan ezkero.',
+            'lists'=>[],
+        ]
+        
+    ],
     'domain-kodekoop'=>'Domeinua Kodekoopekin.',
     'domain-subdomain'=>'Kodekoop azpidomeinuak',
     'domain-own'=>'Zure domeinua',
