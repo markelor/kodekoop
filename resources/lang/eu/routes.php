@@ -13,7 +13,7 @@ return array(
 
 
     'about-us'=>'nor-gara',
-    'services'=>'zerbiztuak',
+    'services'=>'zerbitzuak',
     'web-pages'=>'web-orriak',
     'maintenance'=>'manteinua',
     'projects'=>'proiektuak',
