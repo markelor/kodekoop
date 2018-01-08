@@ -16,12 +16,12 @@ return array(
     'web-pages'=>'paginas-web',
     'maintenance'=>'mantenimiento',
     'projects'=>'proyectos',
-    'project1'=>'proyecto1',
+    'project1'=>'proyectos/proyecto1',
     'contact' => 'contacto',
-    'domain'=>'dominio',
-    'hosting'=>'hosting',
-    'seo'=>'posicionamiento',
-    'stats'=>'estadisticas',
-    'photographs'=>'fotografias'
+    'domain'=>'servicios/dominio',
+    'hosting'=>'servicios/hosting',
+    'seo'=>'servicios/posicionamiento',
+    'stats'=>'servicios/estadisticas',
+    'photographs'=>'servicios/fotografias'
 
 );

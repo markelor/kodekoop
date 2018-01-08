@@ -27,7 +27,7 @@
 		<div class="row portfolio-list sort-destination" data-sort-id="portfolio">
 			<div class="col-12 col-sm-6 col-lg-3 isotope-item brands">
 				<div class="portfolio-item">
-					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.projects').'/'.LaravelLocalization::transRoute('routes.project1'))}}">
+					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.project1'))}}">
 						<span class="thumb-info thumb-info-lighten">
 							<span class="thumb-info-wrapper">
 								<img src="{{ asset('img/projects/project.jpg') }}" class="img-fluid" alt="">
@@ -45,7 +45,7 @@
 			</div>
 			<div class="col-12 col-sm-6 col-lg-3 isotope-item medias">
 				<div class="portfolio-item">
-					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.projects').'/'.LaravelLocalization::transRoute('routes.project1'))}}">
+					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.project1'))}}">
 						<span class="thumb-info thumb-info-lighten thumb-info-no-zoom">
 							<span class="thumb-info-wrapper">
 								<span class="owl-carousel owl-theme nav-inside m-0" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
@@ -71,7 +71,7 @@
 			</div>
 			<div class="col-12 col-sm-6 col-lg-3 isotope-item logos">
 				<div class="portfolio-item">
-					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.projects').'/'.LaravelLocalization::transRoute('routes.project1'))}}">
+					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.project1'))}}">
 						<span class="thumb-info thumb-info-lighten">
 							<span class="thumb-info-wrapper">
 								<img src="{{ asset('img/projects/project-2.jpg') }}" class="img-fluid" alt="">
@@ -89,7 +89,7 @@
 			</div>
 			<div class="col-12 col-sm-6 col-lg-3 isotope-item brands">
 				<div class="portfolio-item">
-					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.projects').'/'.LaravelLocalization::transRoute('routes.project1'))}}">
+					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.project1'))}}">
 						<span class="thumb-info thumb-info-lighten">
 							<span class="thumb-info-wrapper">
 								<img src="{{ asset('img/projects/project-3.jpg') }}" class="img-fluid" alt="">
@@ -107,7 +107,7 @@
 			</div>
 			<div class="col-12 col-sm-6 col-lg-3 isotope-item logos">
 				<div class="portfolio-item">
-					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.projects').'/'.LaravelLocalization::transRoute('routes.project1'))}}">
+					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.project1'))}}">
 						<span class="thumb-info thumb-info-lighten">
 							<span class="thumb-info-wrapper">
 								<img src="{{ asset('img/projects/project-4.jpg') }}" class="img-fluid" alt="">
@@ -125,7 +125,7 @@
 			</div>
 			<div class="col-12 col-sm-6 col-lg-3 isotope-item brands">
 				<div class="portfolio-item">
-					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.projects').'/'.LaravelLocalization::transRoute('routes.project1'))}}">
+					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.project1'))}}">
 						<span class="thumb-info thumb-info-lighten">
 							<span class="thumb-info-wrapper">
 								<img src="{{ asset('img/projects/project-5.jpg') }}" class="img-fluid" alt="">
@@ -143,7 +143,7 @@
 			</div>
 			<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
 				<div class="portfolio-item">
-					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.projects').'/'.LaravelLocalization::transRoute('routes.project1'))}}">
+					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.project1'))}}">
 						<span class="thumb-info thumb-info-lighten">
 							<span class="thumb-info-wrapper">
 								<img src="{{ asset('img/projects/project-6.jpg') }}" class="img-fluid" alt="">
@@ -161,7 +161,7 @@
 			</div>
 			<div class="col-12 col-sm-6 col-lg-3 isotope-item medias">
 				<div class="portfolio-item">
-					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.projects').'/'.LaravelLocalization::transRoute('routes.project1'))}}">
+					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.project1'))}}">
 						<span class="thumb-info thumb-info-lighten">
 							<span class="thumb-info-wrapper">
 								<img src="{{ asset('img/projects/project-7.jpg') }}" class="img-fluid" alt="">
@@ -179,7 +179,7 @@
 			</div>
 			<div class="col-12 col-sm-6 col-lg-3 isotope-item logos">
 				<div class="portfolio-item">
-					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.projects').'/'.LaravelLocalization::transRoute('routes.project1'))}}">
+					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.project1'))}}">
 						<span class="thumb-info thumb-info-lighten">
 							<span class="thumb-info-wrapper">
 								<img src="{{ asset('img/projects/project-23.jpg') }}" class="img-fluid" alt="">
@@ -197,7 +197,7 @@
 			</div>
 			<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
 				<div class="portfolio-item">
-					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.projects').'/'.LaravelLocalization::transRoute('routes.project1'))}}">
+					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.project1'))}}">
 						<span class="thumb-info thumb-info-lighten">
 							<span class="thumb-info-wrapper">
 								<img src="{{ asset('img/projects/project-24.jpg') }}" class="img-fluid" alt="">
@@ -215,7 +215,7 @@
 			</div>
 			<div class="col-12 col-sm-6 col-lg-3 isotope-item medias">
 				<div class="portfolio-item">
-					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.projects').'/'.LaravelLocalization::transRoute('routes.project1'))}}">
+					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.project1'))}}">
 						<span class="thumb-info thumb-info-lighten">
 							<span class="thumb-info-wrapper">
 								<img src="{{ asset('img/projects/project-25.jpg') }}" class="img-fluid" alt="">
@@ -233,7 +233,7 @@
 			</div>
 			<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
 				<div class="portfolio-item">
-					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.projects').'/'.LaravelLocalization::transRoute('routes.project1'))}}">
+					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.project1'))}}">
 						<span class="thumb-info thumb-info-lighten">
 							<span class="thumb-info-wrapper">
 								<img src="{{ asset('img/projects/project-26.jpg') }}" class="img-fluid" alt="">

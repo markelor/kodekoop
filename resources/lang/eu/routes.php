@@ -17,12 +17,12 @@ return array(
     'web-pages'=>'web-orriak',
     'maintenance'=>'manteinua',
     'projects'=>'proiektuak',
-    'project1'=>'proiektua1',
+    'project1'=>'proiektuak/proiektua1',
     'contact' => 'kontaktua',
-    'domain'=>'domeinua',
-    'hosting'=>'hostinga',
-    'seo'=>'posizionamentua',
-    'stats'=>'estatistikak',
-    'photographs'=>'argazkiak',
+    'domain'=>'zerbitzuak/domeinua',
+    'hosting'=>'zerbitzuak/hostinga',
+    'seo'=>'zerbitzuak/posizionamentua',
+    'stats'=>'zerbitzuak/estatistikak',
+    'photographs'=>'zerbitzuak/argazkiak',
 
 );
