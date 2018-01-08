@@ -25,7 +25,7 @@ return array(
     'photographs-short-description'=>'Donec id elit non mi porta gravida at eget metus. Fusce dapibus.',
     'read-more'=>'Gehiago Irakurri',
     'contact-us'=>'Jar zaitez gurekin harremanetan',
-    'domain-what-is'=>'¿Que es?',
+    'domain-what-is'=>'Zer da?',
     'domain-what-is-description'=>'Garatu dugun web orriak interneten presentzia izan dezan, bere izaerarekin bat datorren eta ongi definitzen duen izen bat eta bakarra emango zaio. Izen honi, domeinua deitzen zaio.
         Domenu bat hiru zati ezberdinetan banatzen da:
         Inizialak: www ingelsezko World Wide Web edo mundu zabaleko weba.
