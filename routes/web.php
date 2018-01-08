@@ -28,24 +28,29 @@ function()
 	Route::get(LaravelLocalization::transRoute('routes.about-us'), function() {
 		return View::make('about-us.about-us');
 	});
-	Route::get(LaravelLocalization::transRoute('routes.services'), function() {
-		return View::make('home.home');
-	});
 	/*Route::get(LaravelLocalization::transRoute('routes.web-pages'), function() {
 		return View::make('home.home');
 	});
 	Route::get(LaravelLocalization::transRoute('routes.maintenance'), function() {
 		return View::make('home.home');
 	});*/
-	Route::get(LaravelLocalization::transRoute('routes.services'), function() {
-		return View::make('services.services');
-	});
-	Route::get(LaravelLocalization::transRoute('routes.services').'/'.LaravelLocalization::transRoute('routes.domain'), function() {
-		return View::make('services.single-service.domain');
-	});
-	Route::get(LaravelLocalization::transRoute('routes.services').'/'.LaravelLocalization::transRoute('routes.hosting'), function() {
-		return View::make('services.single-service.hosting');
-	});
+	
+	Route::group(
+	[
+        'prefix' => LaravelLocalization::transRoute('routes.services')
+    ], function () {
+    	Route::get(LaravelLocalization::transRoute('/'), function() {
+			return View::make('services.services');
+		});
+        Route::get(LaravelLocalization::transRoute('routes.domain'), function() {
+			return View::make('services.single-service.domain');
+		});
+		Route::get(LaravelLocalization::transRoute('routes.hosting'), function() {
+			return View::make('services.single-service.hosting');
+		});
+    });
+	
+	
 	Route::get(LaravelLocalization::transRoute('routes.projects'), function() {
 		return View::make('projects.projects');
 	});
