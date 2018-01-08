@@ -66,18 +66,24 @@
 			<div class="tabs">
 				<ul class="nav nav-tabs nav-justified">
 					<li class="nav-item active">
-						<a class="nav-link" href="#popular10" data-toggle="tab" class="text-center"><i class="fa fa-star"></i> @lang('services.hosting-share')</a>
+						<a class="nav-link" href="#share" data-toggle="tab" class="text-center"><i class="fa fa-star"></i> @lang('services.hosting-share')</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#recent10" data-toggle="tab" class="text-center">@lang('services.hosting-single')</a>
+						<a class="nav-link" href="#single" data-toggle="tab" class="text-center">@lang('services.hosting-single')</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#other" data-toggle="tab" class="text-center">@lang('services.hosting-other')</a>
 					</li>
 				</ul>
 				<div class="tab-content">
-					<div id="popular10" class="tab-pane active">
+					<div id="share" class="tab-pane active">
 						<p>@lang('services.hosting-kodekoop-share')</p>
 					</div>
-					<div id="recent10" class="tab-pane">
+					<div id="single" class="tab-pane">
 						<p>@lang('services.hosting-kodekoop-single')</a></p>
+					</div>
+					<div id="other" class="tab-pane">
+						<p>@lang('services.hosting-kodekoop-other')</a></p>
 					</div>
 				</div>
 			</div>

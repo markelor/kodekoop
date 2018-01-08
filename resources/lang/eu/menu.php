@@ -13,7 +13,7 @@ return array(
 
     'home' => 'Hasiera',
     'about-us'=>'Nor Gara',
-    'services'=>'Zerbiztuak',
+    'services'=>'Zerbitzuak',
     'web-pages'=>'Web Orriak',
     'maintenance'=>'Manteinua',
     'contact' => 'Kontaktua',

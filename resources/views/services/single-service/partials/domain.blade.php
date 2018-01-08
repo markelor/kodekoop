@@ -18,16 +18,11 @@
 		<div class="col">
 			<div class="portfolio-title">
 				<div class="row">
-					<div class="portfolio-nav-all col-lg-1">
-						<a href="portfolio-single-small-slider.html" data-tooltip data-original-title="Back to list"><i class="fa fa-th"></i></a>
-					</div>
+					
 					<div class="col-lg-10 text-center">
-						<h2 class="mb-0">Porto Watch</h2>
+						<h2 class="mb-0">@lang('services.domain')</h2>
 					</div>
-					<div class="portfolio-nav col-lg-1">
-						<a href="portfolio-single-small-slider.html" class="portfolio-nav-prev" data-tooltip data-original-title="Previous"><i class="fa fa-chevron-left"></i></a>
-						<a href="portfolio-single-small-slider.html" class="portfolio-nav-next" data-tooltip data-original-title="Next"><i class="fa fa-chevron-right"></i></a>
-					</div>
+					
 				</div>
 			</div>
 
@@ -38,18 +33,9 @@
 	<div class="row">
 		<div class="col-lg-4">
 
-			<div class="owl-carousel owl-theme" data-plugin-options="{'items': 1, 'margin': 10, 'animateOut': 'fadeOut', 'autoplay': true, 'autoplayTimeout': 3000}">
-				<div>
-					<span class="img-thumbnail d-block">
-						<img alt="" class="img-fluid" src="{{ asset('img/projects/project-1.jpg') }}">
-					</span>
-				</div>
-				<div>
-					<span class="img-thumbnail d-block">
-						<img alt="" class="img-fluid" src="{{ asset('img/projects/project-1-2.jpg') }}">
-					</span>
-				</div>
-			</div>
+			<span class="img-thumbnail d-block">
+				<img alt="" class="img-fluid" src="{{ asset('img/services/hosting.png') }}">
+			</span>
 
 		</div>
 
@@ -58,46 +44,57 @@
 			<div class="portfolio-info">
 				<div class="row">
 					<div class="col-md-6">
-						<h5>Project Description</h5>
-					</div>
-					<div class="col-md-6 text-left text-lg-right">
-						<ul>
-							<li>
-								<a href="#" data-tooltip data-original-title="Like"><i class="fa fa-heart"></i>14</a>
-							</li>
-							<li>
-								<i class="fa fa-calendar"></i> 01 January 2017
-							</li>
-							<li>
-								<i class="fa fa-tags"></i> <a href="#">Brand</a>, <a href="#">Design</a>
-							</li>
-						</ul>
+						<h5>@lang('services.domain-what-is')</h5>
 					</div>
 				</div>
 			</div>
 
-			<p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus nibh sed elimttis adipiscing. Fusce in hendrerit purus. Suspendisse potenti. Proin quis eros odio, dapibus dictum mauris. Donec nisi libero, adipiscing id pretium eget, consectetur sit amet leo. Nam at eros quis mi egestas fringilla non nec purus.</p>
-
-			<a href="#" class="btn btn-primary btn-icon"><i class="fa fa-external-link"></i>Live Preview</a> <span class="arrow hlb appear-animation" data-appear-animation="rotateInUpLeft" data-appear-animation-delay="800"></span>
-
-			<ul class="portfolio-details">
-				<li>
-					<h5 class="mt-2 mb-1">Skills</h5>
-
-					<ul class="list list-inline list-icons">
-						<li class="list-inline-item"><i class="fa fa-check-circle"></i> Design</li>
-						<li class="list-inline-item"><i class="fa fa-check-circle"></i> HTML/CSS</li>
-						<li class="list-inline-item"><i class="fa fa-check-circle"></i> Javascript</li>
-						<li class="list-inline-item"><i class="fa fa-check-circle"></i> Backend</li>
-					</ul>
-				</li>
-				<li>
-					<h5 class="mt-2 mb-1">Client</h5>
-					<p>Okler Themes</p>
-				</li>
-			</ul>
+			<p class="mt-2">
+			@lang('services.domain-what-is-description')</p>
 
 		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<hr class="tall">
+			<h4>@lang('services.domain-kodekoop')</h4>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="tabs">
+				<ul class="nav nav-tabs nav-justified">
+					<li class="nav-item active">
+						<a class="nav-link" href="#subdomain" data-toggle="tab" class="text-center"><i class="fa fa-star"></i> @lang('services.domain-subdomain')</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#own" data-toggle="tab" class="text-center">@lang('services.domain-own')</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#email" data-toggle="tab" class="text-center">@lang('services.domain-email')</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#other" data-toggle="tab" class="text-center">@lang('services.domain-other')</a>
+					</li>
+				</ul>
+				<div class="tab-content">
+					<div id="subdomain" class="tab-pane active">
+						<p>@lang('services.domain-kodekoop-subdomain')</p>
+					</div>
+					<div id="own" class="tab-pane">
+						<p>@lang('services.domain-kodekoop-own')</a></p>
+					</div>
+					<div id="email" class="tab-pane">
+						<p>@lang('services.domain-kodekoop-email')</a></p>
+					</div>
+					<div id="other" class="tab-pane">
+						<p>@lang('services.domain-kodekoop-other')</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</div>
 
 	<div class="row">
@@ -188,21 +185,3 @@
 </div>
 
 </div>
-
-<section class="call-to-action call-to-action-default with-button-arrow content-align-center call-to-action-in-footer">
-<div class="container">
-	<div class="row">
-		<div class="col-md-9 col-lg-9">
-			<div class="call-to-action-content">
-				<h3>Porto is <strong>everything</strong> you need to create an <strong>awesome</strong> website!</h3>
-				<p class="mb-0">The <strong>#1 Selling</strong> HTML Site Template on ThemeForest</p>
-			</div>
-		</div>
-		<div class="col-md-3 col-lg-3">
-			<div class="call-to-action-btn">
-				<a href="http://themeforest.net/item/porto-responsive-html5-template/4106987" target="_blank" class="btn btn-lg btn-primary">Buy Now!</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -40px; left: 70%;"></span>
-			</div>
-		</div>
-	</div>
-</div>
-</section>
