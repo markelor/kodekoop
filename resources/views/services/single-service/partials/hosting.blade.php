@@ -49,8 +49,25 @@
 				</div>
 			</div>
 
-			<p class="mt-2">
-			@lang('services.hosting-what-is-description')</p>
+			@foreach (Lang::get('services.hosting-what-is-descriptions') as $descriptions => $description)
+				<p class="mt-2">
+				{{$description['text']}}
+				</p>
+				<dl>
+				@foreach ($description['lists'] as $lists => $list)
+					<dt>{{$list['title']}}</dt>
+					<dd>{{$list['body']}}</dd>
+					<ul><ul class="list list-icons list-icons-sm">
+					@foreach ($list['sublists'] as $sublists => $sublist)
+						<li><i class="fa fa-caret-right"></i>
+							<strong>{{$sublist['title']}}</strong>
+							{{$sublist['body']}}
+						</li>
+					@endforeach
+					</ul></ul>
+				@endforeach
+				</dl>
+			@endforeach
 
 		</div>
 	</div>
@@ -65,26 +82,34 @@
 		<div class="col-lg-12">
 			<div class="tabs">
 				<ul class="nav nav-tabs nav-justified">
-					<li class="nav-item active">
-						<a class="nav-link" href="#share" data-toggle="tab" class="text-center"><i class="fa fa-star"></i> @lang('services.hosting-share')</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#single" data-toggle="tab" class="text-center">@lang('services.hosting-single')</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#other" data-toggle="tab" class="text-center">@lang('services.hosting-other')</a>
-					</li>
+					<?php $i=0; ?>
+					@foreach (Lang::get('services.hosting-kodekoop-services') as $services => $service)
+						@if ($i == 0)
+							<li class="nav-item active">
+								<a class="nav-link" href="#service{{$i}}" data-toggle="tab" class="text-center"><i class="fa fa-star"></i> {{$service['title']}}</a>
+							</li>
+						@else
+							<li class="nav-item">
+								<a class="nav-link" href="#service{{$i}}" data-toggle="tab" class="text-center">{{$service['title']}}</a>
+							</li>
+						@endif
+						<?php $i++; ?>
+					@endforeach
 				</ul>
 				<div class="tab-content">
-					<div id="share" class="tab-pane active">
-						<p>@lang('services.hosting-kodekoop-share')</p>
-					</div>
-					<div id="single" class="tab-pane">
-						<p>@lang('services.hosting-kodekoop-single')</a></p>
-					</div>
-					<div id="other" class="tab-pane">
-						<p>@lang('services.hosting-kodekoop-other')</a></p>
-					</div>
+					<?php $i=0; ?>
+					@foreach (Lang::get('services.hosting-kodekoop-services') as $services => $service)
+						@if ($i == 0)
+							<div id="service{{$i}}" class="tab-pane active">
+								<p>{{$service['body']}}</p>
+							</div>
+						@else
+							<div id="service{{$i}}" class="tab-pane">
+								<p>{{$service['body']}}</a></p>
+							</div>
+						@endif
+						<?php $i++; ?>
+					@endforeach
 				</div>
 			</div>
 		</div>

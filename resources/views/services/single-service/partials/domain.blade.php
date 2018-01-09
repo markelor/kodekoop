@@ -81,32 +81,34 @@
 		<div class="col-lg-12">
 			<div class="tabs">
 				<ul class="nav nav-tabs nav-justified">
-					<li class="nav-item active">
-						<a class="nav-link" href="#subdomain" data-toggle="tab" class="text-center"><i class="fa fa-star"></i> @lang('services.domain-subdomain')</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#own" data-toggle="tab" class="text-center">@lang('services.domain-own')</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#email" data-toggle="tab" class="text-center">@lang('services.domain-email')</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#other" data-toggle="tab" class="text-center">@lang('services.domain-other')</a>
-					</li>
+					<?php $i=0; ?>
+					@foreach (Lang::get('services.domain-kodekoop-services') as $services => $service)
+						@if ($i == 0)
+							<li class="nav-item active">
+								<a class="nav-link" href="#service{{$i}}" data-toggle="tab" class="text-center"><i class="fa fa-star"></i> {{$service['title']}}</a>
+							</li>
+						@else
+							<li class="nav-item">
+								<a class="nav-link" href="#service{{$i}}" data-toggle="tab" class="text-center">{{$service['title']}}</a>
+							</li>
+						@endif
+						<?php $i++; ?>
+					@endforeach
 				</ul>
 				<div class="tab-content">
-					<div id="subdomain" class="tab-pane active">
-						<p>@lang('services.domain-kodekoop-subdomain')</p>
-					</div>
-					<div id="own" class="tab-pane">
-						<p>@lang('services.domain-kodekoop-own')</a></p>
-					</div>
-					<div id="email" class="tab-pane">
-						<p>@lang('services.domain-kodekoop-email')</a></p>
-					</div>
-					<div id="other" class="tab-pane">
-						<p>@lang('services.domain-kodekoop-other')</a></p>
-					</div>
+					<?php $i=0; ?>
+					@foreach (Lang::get('services.domain-kodekoop-services') as $services => $service)
+						@if ($i == 0)
+							<div id="service{{$i}}" class="tab-pane active">
+								<p>{{$service['body']}}</p>
+							</div>
+						@else
+							<div id="service{{$i}}" class="tab-pane">
+								<p>{{$service['body']}}</a></p>
+							</div>
+						@endif
+						<?php $i++; ?>
+					@endforeach
 				</div>
 			</div>
 		</div>
