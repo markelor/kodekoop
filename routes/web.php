@@ -46,6 +46,9 @@ function()
 	Route::get(LaravelLocalization::transRoute('routes.hosting'), function() {
 		return View::make('services.single-service.hosting');
 	});
+	Route::get(LaravelLocalization::transRoute('routes.seo'), function() {
+		return View::make('services.single-service.seo');
+	});
 	Route::get(LaravelLocalization::transRoute('routes.projects'), function() {
 		return View::make('projects.projects');
 	});

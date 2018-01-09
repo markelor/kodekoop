@@ -142,4 +142,51 @@ return array(
             'body'=>'Bezeroak, aurrez ornitzaile batekin tratua eginda badu, edo Kodekoopek eskeinitako aukeretatik at, beste bat nahiago badu, zerbitzariaren konfigurazioan lagun diezaiokegu arazoren bat badu. Horretarako, beharrezkoak diren datuak eskatuko dira.'
         ],
     ],
+    'seo-what-is'=>'Zer da?',
+    'seo-what-is-descriptions'=> [
+        [
+            'text'=>'Gure web orria, bilatzaile desberdinetako motoreetan, ahalik eta posturik onenean kokatzeko eman behar diren estrategia ezberdinetan oinarrritzen da. Helburu nagusia, motoreei gure orria zertaz doan eta bere balioa zein den erakustea da. Honetarako, ahal den neurrian, metodo organikoaez baliatuko gara, hau da, publizitaterik erabili gabe, bilatzaileetan ahalik eta goren kokatzen saiatuko gara.
+                Bilatzaileen motoreek web orri bat bestearen aurretik kokatu ala ez  jakiteko orduan, kontuan hartzen dituzten faktoreen artean bi dira garrantzitsuenak.
+                Autoritatea: Web-orri bat zenbat eta hedatuago egon, orduan eta garrantzitsuagoa da daukan informazioa. Erregela honek, erabiltzailearen experientzian du oinarria. Eduki bat zenbat eta gehiago ikusi eta partekatu, orduan eta baliozkoagoa izan da bixitarientzat.
+                Garrantzia: Bilatzailean idatzi dugun hitzak, eta web-orriak daukaten arteko erlazioan oinarritzen da. Honek ez du esan nahi hitz bat askotan erabiltzeagatik postu hobean azalduko garenik.
+                Beraz, ahalik eta autoritate eta garrantzia gehien izateko, gure web orriari eman beharreko bultzada bi multzo haunditan bana dezakegu. Webaren barne optimizazioa eta hedapena.
+                Barne Optimizazioa:
+                Bilatzaile motoreei edukia ahalik eta ulergarrien emateko, webaren egiturak oso zorrotza eta zuzena izan behar du, html etiketak, meta etiketak, textuaren edukia, hitz klabeak eta URL formatuak ongi erabili behar dira, besteak beste. 
+                Bezeroaren nabigazio esperientzia ahalik eta onenea izan dadin eman beharreko pausuak ere kontutan hartzen dira: Orriaren denbora karga eta kodearen optimizazioa besteak beste.
+                Hedapena:
+                Web orriaren egitura eta kalitatea alde batera utzita, badaude oso garrantzitsuak diren beste faktore batzuk ere. Aktibitateak esaterako, asko laguntzen du hedapenan. Horretarako tresna erabilienak honakoak dira: Sare sozialak, lekuko komunikazio medioetan presentzia, aldizkariak, irratia…
+                Hedapena egiterako orduan, balio etikoak ere badu garrantzia, honen arabera bi motatako posizionamentua lantzen ariko ginateke. 
+                Black Hat: Inolako kontrolik gabe, gure web orria zabaltzeko egindako saiakerak dira. Adibide bezela aipa genitzazke foro eta blog ezberdinetan egiten diren kontrolik gabeko propaganda edo SPAM, eta bilatzaileen motoreak engainatzeko egiten diren saiakerak. Teknika honek epe motzera emaitza eman dezake, baina harrapatuz gero, gure web orria zigortu eta oso zail edo ezinezko egingo zaigu berriz altxatzea.
+                White Hat: Hemen sartuko lirateke kontrol etiko baten barruan web orria zabaltzeko egiten diren ahaleginak. Foroetan, zein blog ezberdinetan egiten ditugun komentarioak ere ongi etorriak dira gaiarekin lotura badute eta  balio erantsi bat ematen dugun einean.',
+            'lists'=>[]
+        ],
+    ],
+    'seo-how-engine-function-descriptions'=> [
+        [
+            'text'=>'Nola funtzionatzen dute bilaketa motoreek?
+                Bilaketa motore baten funtzionamentua bi atal nagusitan bereizten da
+                Arakatzea: Bilaketa motore batek, web orri bat hartu eta orriz-orri aztertzen du bere edukia informazioa zerbitzari batean gorde aurretik. Horretarako, robota, gure orrian ditugun esteka ezberdinez baliatzen da. Ikus dezakegunez, esteken egitura zuzenak paper oso garrantzitsua jokatzen du behar bezala aurki gaitzaten.
+                Robotak, beren algoritmo propioa du arakatzeko orduan, baina baditu zenbait lehentasun. Horien artean, web orri berriak, informazioa eguneratzen dutenak eta erantzun azkarra ematen duten orriak daude, azken hau oso garrantzitsua izan daiteke, robotak web orri hori zenbat denboran arakatu erabakiko baitu.
+                Arakatze lanean ari diren robotei laguntze aldera, sitemap.xml izeneko dokumentua sortu dezakegu, dokumentu honetan, gure web orrian doazen esteka guztiak sartu ditzazkegu eta robotari lana erraztu. Lan hau oso gomendagarria da, batez ere, esteka asko dituzten web orrientzat.
+                Kontrajarria dirudien arren, batzuetan ez dugu gure orria ikusgai egotea nahi. Kasu hau, administratzaile batek web orrian aldaketak egiteko leku erreserbatu bat duenean gertatzen da adibidez. Esteka pribatu hauek, motoreek araka ez ditzaten robots.txt izeneko dokumentuan jartzen dira eta motorrek ez diete jaramonik egiten.
+                Indexazioa:
+                Robotaren arakatze lana bukatu ostean, informazioa ordenatzeko ordua dator, hau edukiaren, autoritatearen eta garrantziaren araberakoa da.
+                Informazio zerrenda honen arabera, erabiltzaile baten kontsulta gure gaiarekin erlazionatuta badago, bilatzailean hobeto edo gaizkiago kokatuta azalduko gara. Gure posizioa, edukiaren kalitatearekin oso lotuta doa. Gaur egun, algoritmo konplexu bat erabiliz, eta ehunka aspektu aztertu ondoren: publikazio data, irudiak, bideoak, animazioak, mikroformatuak etab, lortzen da kokapena.',
+            'lists'=>[]
+        ],
+    ],
+    'seo-kodekoop'=>'Posizionamentua Kodekoopekin.',
+    'seo-kodekoop-services'=>[
+        [
+            'title'=>'Barne optimizazioa',
+            'body'=>'Kodekoopen zure web orria posizionamentu ona izateko behar bezala eraikita dagoen ala ez aztertzen du. Horretarako, prestatuta dauden, eta analisi sakona egiten duten programak erabiltzen ditugu. Behin, hobetu beharreko puntuak argi daudenean, horiek zuzentzeaz arduratzen gara. 
+                Zenbait kasutan, batez ere zaharkituak dauden web orrietan, berria egitea beste erremdiorik ez da geratzen, ez baitira teknologia berriek eta bilatzaileetako motoreek eskatzen dutena betetzeko gai.
+                Aztertzen ditugun puntu nagusiak hauek dira: www birbidaltzea, canonical esteka, titulua, meta deskribapena, meta hitz klabeak, robots.txt fitxategia, sitemap fitxategia, url garbiak, bilatzailean duen itxura, irudiak, orri barrura apuntatzen duten estekak, kanpora apuntatzen duten estekak, goiburuko H etiketak, nabarmentzen diren textuak, domeinu izena, favicon etiketa, errore orriak, inprimatzeko css ak, formularioak, hizkuntza, azkartasuna, mobilerako duen moldagarritasuna, HTTP/SSL protokoloak, textuaren edukia kodearekiko, w3c balidazioa, posta elektronikoak, google analyticas, webaren optimizazioa, sare sozialak, meta datu sozialak.'
+        ],
+        [
+            'title'=>'Hedapena',
+            'body'=>'Ion zati hau uste dut askos hobeto ulertzen duzula eta egin dezakezula.
+                Web orriek hedapena izan dezaten, sare sozialekin lotutako zerbitzuak eskainiko ditugu, bezeroak ezer egin gabe sare sozialak prest izateko. Sare sozialetako logoak, bannerrak, twitak egin...'
+        ]
+    ],
 );

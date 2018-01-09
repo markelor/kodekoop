@@ -5,7 +5,7 @@
 				<ul class="breadcrumb">
 					<li><a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.home') )}}">@lang('menu.home')</a></li>
 					<li><a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.projects') )}}">@lang('menu.services')</a></li>
-					<li class="active">@lang('menu.hosting')</li>
+					<li class="active">@lang('menu.seo')</li>
 				</ul>
 			</div>
 		</div>
@@ -20,7 +20,7 @@
 				<div class="row">
 					
 					<div class="col-lg-10 text-center">
-						<h2 class="mb-0">@lang('services.hosting')</h2>
+						<h2 class="mb-0">@lang('services.seo')</h2>
 					</div>
 					
 				</div>
@@ -44,12 +44,32 @@
 			<div class="portfolio-info">
 				<div class="row">
 					<div class="col-md-6">
-						<h5>@lang('services.hosting-what-is')</h5>
+						<h5>@lang('services.seo-what-is')</h5>
 					</div>
 				</div>
 			</div>
 
-			@foreach (Lang::get('services.hosting-what-is-descriptions') as $descriptions => $description)
+			@foreach (Lang::get('services.seo-what-is-descriptions') as $descriptions => $description)
+				<p class="mt-2">
+				{{$description['text']}}
+				</p>
+				<dl>
+				@foreach ($description['lists'] as $lists => $list)
+					<dt>{{$list['title']}}</dt>
+					<dd>{{$list['body']}}</dd>
+					<ul><ul class="list list-icons list-icons-sm">
+					@foreach ($list['sublists'] as $sublists => $sublist)
+						<li><i class="fa fa-caret-right"></i>
+							<strong>{{$sublist['title']}}</strong>
+							{{$sublist['body']}}
+						</li>
+					@endforeach
+					</ul></ul>
+				@endforeach
+				</dl>
+			@endforeach
+			{{-- seo-how-engine-function-descriptions part --}}
+			@foreach (Lang::get('services.seo-how-engine-function-descriptions') as $descriptions => $description)
 				<p class="mt-2">
 				{{$description['text']}}
 				</p>
@@ -74,7 +94,7 @@
 	<div class="row">
 		<div class="col">
 			<hr class="tall">
-			<h4>@lang('services.hosting-kodekoop')</h4>
+			<h4>@lang('services.seo-kodekoop')</h4>
 		</div>
 	</div>
 
@@ -83,7 +103,7 @@
 			<div class="tabs">
 				<ul class="nav nav-tabs nav-justified">
 					<?php $i=0; ?>
-					@foreach (Lang::get('services.hosting-kodekoop-services') as $services => $service)
+					@foreach (Lang::get('services.seo-kodekoop-services') as $services => $service)
 						@if ($i == 0)
 							<li class="nav-item active">
 								<a class="nav-link" href="#service{{$i}}" data-toggle="tab" class="text-center"><i class="fa fa-star"></i> {{$service['title']}}</a>
@@ -98,7 +118,7 @@
 				</ul>
 				<div class="tab-content">
 					<?php $i=0; ?>
-					@foreach (Lang::get('services.hosting-kodekoop-services') as $services => $service)
+					@foreach (Lang::get('services.seo-kodekoop-services') as $services => $service)
 						@if ($i == 0)
 							<div id="service{{$i}}" class="tab-pane active">
 								<p>{{$service['body']}}</p>
@@ -202,4 +222,3 @@
 	</div>
 
 </div>
-
