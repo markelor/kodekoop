@@ -179,7 +179,7 @@ return array(
     'seo-kodekoop-services'=>[
         [
             'title'=>'Barne optimizazioa',
-            'body'=>'Kodekoopen zure web orria posizionamentu ona izateko behar bezala eraikita dagoen ala ez aztertzen du. Horretarako, prestatuta dauden, eta analisi sakona egiten duten programak erabiltzen ditugu. Behin, hobetu beharreko puntuak argi daudenean, horiek zuzentzeaz arduratzen gara. 
+            'body'=>'Kodekoopen zure web orria posizionamentu ona izateko behar bezala eraikita dagoen ala ez aztertzen dugu. Horretarako, prestatuta dauden, eta analisi sakona egiten duten programak erabiltzen ditugu. Behin, hobetu beharreko puntuak argi daudenean, horiek zuzentzeaz arduratzen gara. 
                 Zenbait kasutan, batez ere zaharkituak dauden web orrietan, berria egitea beste erremdiorik ez da geratzen, ez baitira teknologia berriek eta bilatzaileetako motoreek eskatzen dutena betetzeko gai.
                 Aztertzen ditugun puntu nagusiak hauek dira: www birbidaltzea, canonical esteka, titulua, meta deskribapena, meta hitz klabeak, robots.txt fitxategia, sitemap fitxategia, url garbiak, bilatzailean duen itxura, irudiak, orri barrura apuntatzen duten estekak, kanpora apuntatzen duten estekak, goiburuko H etiketak, nabarmentzen diren textuak, domeinu izena, favicon etiketa, errore orriak, inprimatzeko css ak, formularioak, hizkuntza, azkartasuna, mobilerako duen moldagarritasuna, HTTP/SSL protokoloak, textuaren edukia kodearekiko, w3c balidazioa, posta elektronikoak, google analyticas, webaren optimizazioa, sare sozialak, meta datu sozialak.'
         ],
