@@ -31,6 +31,16 @@
 
 	<div class="featured-boxes">
 		<div class="row">
+		<div class="col-lg-3 col-sm-6">
+				<div class="featured-box featured-box-primary featured-box-effect-1 mt-0 mt-lg-5">
+					<div class="box-content">
+						<i class="icon-featured fa fa-at"></i>
+						<h4 class="text-uppercase">@lang('services.creation')</h4>
+						<p>@lang('services.domain-short-description')</p>
+						<p><a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.creation'))}}" class="lnk-primary learn-more">@lang('services.read-more') <i class="fa fa-angle-right"></i></a></p>
+					</div>
+				</div>
+			</div>
 			<div class="col-lg-3 col-sm-6">
 				<div class="featured-box featured-box-primary featured-box-effect-1 mt-0 mt-lg-5">
 					<div class="box-content">

@@ -13,6 +13,7 @@ return array(
 
     'about-us'=>'quienes-somos',
     'services'=>'servicios',
+    'creation'=>'servicios/creacion',
     'domain'=>'servicios/dominio',
     'hosting'=>'servicios/hosting',
     'seo'=>'servicios/posicionamiento',

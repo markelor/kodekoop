@@ -14,6 +14,7 @@ return array(
     'home' => 'Hasiera',
     'about-us'=>'Nor Gara',
     'services'=>'Zerbitzuak',
+    'creation'=>'Sorkuntza',
     'domain'=>'Domeinua',
     'hosting'=>'Hostinga',
     'seo'=>'Posizionamentua',

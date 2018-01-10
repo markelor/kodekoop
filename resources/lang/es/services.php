@@ -13,6 +13,7 @@ return array(
     'our'=>'Nuestros',
     'services'=>'Servicios',
     'general-description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non pulvinar. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eu risus enim, ut pulvinar lectus. Sed hendrerit nibh metus.',
+    'creation'=>'Creación',
     'domain'=>'Dominio',
     'hosting'=>'Hosting',
     'seo'=>'Posicionamiento (SEO)',
@@ -191,5 +192,48 @@ return array(
             'body'=>'Ion zati hau uste dut askos hobeto ulertzen duzula eta egin dezakezula.
                 Web orriek hedapena izan dezaten, sare sozialekin lotutako zerbitzuak eskainiko ditugu, bezeroak ezer egin gabe sare sozialak prest izateko. Sare sozialetako logoak, bannerrak, twitak egin...'
         ]
+    ],
+    'web-creation-what-is'=>'Zer da?',
+    'web-creation-what-is-descriptions'=> [
+        [
+            'text'=>'Zer da web sorkuntza?
+                Internet, mundu mailako komunikazio bide nagusia bihurtu da gaur egun.  Komunikazio sare hontan, web orrien sorrera, norberak nahi duen mezua jendeari helarazteko tresna oso boteretsua bihurtu da. Informazioaren helburuaren arabera, era desberdinetako orriak sortzen dira: produktuak saltzeko dendak, norberaren idatziak publikatzeko blogak, zerbaiten berri ematen duten informazio orriak..
+                Web orri estatikoak
+                Informazio jakin bat erakusteko erabiltzen diren orriak dira. Oso egokiak dira beraien berri eman nahi duten enpresa munduko negozioentzat: deskripapena, ematen diren zerbitzuak, non dagoen kokatuta, kontaktua…
+                Era hontako orriek badituzte beren abantailak: Ez dute datu baserik behar izaten, espazio gutxi okupatzen dute, beraz arinak izaten dira eta errekutso gutxi erabiltzen diruzte.
+                Aipatutako arrazoiak gogoan hartuz, zerbitzari elkarbanatu batean jar daitezke, beren mantenu kostua txikiagotuz. 
+
+                Web orri dinamikoak
+                Bisitariaren eta webaren arteko elkarreragina handia da. Bisitaria nabigatzen ari den einean egindako eskaeren arabera, web orriaren edukia dinamikoki sortzen da.
+                Orri hauek errazak izatetik oso konplexu izatera pasa daitezke, eta garatzerako orduan informatika ezagutzak beharrezkoak dira.
+                Egiturari dagokionez, oinarri bezala, datu base bat eta erabiltzaile zein administratzailearentzat ingurumen desberdina prestatu beharra izaten da. Hortik aurrera kasu bakoitzak dituen bete beharrak aztertzen dira.
+                Kostuari dagokionez, ezinbestekoa da konplexutasun maila eta gastatzen dituen errekurstoak zein diren definitzea. Horiek altuak badira, zerbitzari oso bat beharko dute beraientzat bakarrik.
+                Autogestiorako orriak
+                Lan egiteko era hau modan jarri da azken urte hauetan. Informatikariak web orria garatu ostean, bezeroak administrazio panel bat izango du edukiak kudeatzeko. Era hontan funtzionatzen du hain famatu egin den Wordpress CMS teknologiak. Ezagutza hain altua ez duten pertsonek, kodean murgildu gabe lan egin dezakete, edukiak eguneratu eta publikatuz.
+                Bezeroak ezagutza oso txikiak dituen kasuetan, oso arriskutsua gerta daiteke aukera hau. Web orriaren kontrol osoa izateak eta jakintzarik gabe aldaketak egiteak, egindako lan guztia bertan beherea geratzea ere ekar dezakeelako.
+                Responsive orriak
+                Gaur egun, mugikorretatik internetera bisita egiten dutenak, gehiago dira ordenagailu bidez konektatzen direnak baino. Web orria, eragingorra izan dadin, ezinbestekoa da orriaren itxura, bisitatzen ari den gailuaren pantailara egokitzea. Web orriak, flash edo teknologia zaharkitua badarabil, ez da aparatu berrietara gaituta egongo eta bisita ugari gatzen ariko gara. Hala bada, berria egitea beste erremediorik ez da izango. Diseinu moldagarria ez izateak bere zigorrak ekartzen ditu, aipatutakoaz gain,  bilatzaileetan ongi kokatzeko arazoak izango ditugu.
+                Aplikazioak
+                Aplikazio garapena, tablet edo smartphone erako teknologia berriak erabiltzen dituzten gailuetara espezifikoki zuzenduta dago. Aplikazioa, gure gailuan martxan jarri ostean, eskuragarri izango dugu nahi dugun momentuan erabiltzeko. Abantailen artean aipatu beharrekoa da aplikazio batek ez duela derrigor internetera konektatuta egon beharrik. Beraz, konexioa ez duen momentuetan ere funtzionatzen jarrai dezake.
+                Aplikazio bat garatzerako orduan gailuek barnean daramaten sistema eragilea oso garrantzitsua da. Horien artean merkatua kontrolatzen dutenak Android eta IOS dira. 
+                Proiektu bat hasi aurretik oso garrantzitsua da, gure aplikazioak zein sistema eragiletan funtzionatzea nahi dugun erabakitzea, teknologiaren hautua honekin oso loturik doalako. Aplikazio bat, plataforma jakin baterako edo anitzetarako garatzeko hautua egin daiteke, hala ere, alferrik izan daiteke plataforma anitzetarako garatzea gero publikatzeko eta behar bezala funtziona dezan ordaindu beharreko lizentziak ordaintzeko prest ez bagaude. Android plataformaren kasuan, publikatze lizentzia bakarrik behar da eta oso merkea da, ezin daiteke gauza bera esan IOS bada gure hautua.',
+            'lists'=>[]
+        ],
+    ],
+    'web-creation-kodekoop'=>'Sorkuntza Kodekoopekin.',
+    'web-creation-kodekoop-services'=>[
+        [
+            'title'=>'Web orriak',
+            'body'=>'Kodekoopen garrantzi haundia ematen diogu aplikazioa garatzerako orduan sortzen den kodearen kalitateari, gure helburua, web orri eraginkorrak eta azkarrak egitea da. Horretarako, merkatuan dauden azken teknolgien ezagutza etengabea da gure oinarri. Horien artean honako teknologiak menperatzen ditugu: HTML5, CSS3,Bootstrap, jQuery, JS,PHP, Laravel, AngularJS, Angular, Ionic, Android, Wordpress, Node.js, MongoDB, MySQL, AWS…'
+        ],
+        [
+            'title'=>'Aplikazioak',
+            'body'=>'Aplikazioak garatzerako orduan, plataforma orotan funtziona dezan ahalbidetzen duen teknologiak kontrolatzen ditugu.  Android mugikorretarako aplikazio espezifikoak egi egin nahi dituzuen kasuetan ere, gurekin harremantean jar zaitezkete.'
+        ],
+        [
+            'title'=>'Diseinu eta argazkiak',
+            'body'=>'Bezeroak bere web orriarentzat kalitatezko argazkiak nahi dituen kasuetan, argazki zerbitzu berezia eskeintzen dugu. Zerbitzu hontan, argazki kamera frofesionala erabiliz, tokian tokiko argazkiak aterako ditugu. 
+                Web orriaren diseinua ere oso garrantzitsua da. Horregatik, diseinu berezi bat eman edo marka propio bat sortu beharreko kasuetan gurekin kontaktuan jar zaitezkete. Besteak beste, logoak, sare sozialetako bannerrak etab  sortzeko orduan.'
+        ],
     ],
 );

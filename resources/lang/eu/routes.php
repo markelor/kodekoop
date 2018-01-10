@@ -14,6 +14,7 @@ return array(
 
     'about-us'=>'nor-gara',
     'services'=>'zerbitzuak',
+    'creation'=>'zerbitzuak/sorkuntza',
     'domain'=>'zerbitzuak/domeinua',
     'hosting'=>'zerbitzuak/hostinga',
     'seo'=>'zerbitzuak/posizionamentua',

@@ -14,6 +14,7 @@ return array(
     'home' => 'Inicio',
     'about-us'=>'Quienes Somos',
     'services'=>'Servicios',
+    'creation'=>'Creación',
     'domain'=>'Dominio',
     'hosting'=>'Hosting',
     'seo'=>'Posicionamiento',

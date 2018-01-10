@@ -40,6 +40,9 @@ function()
 	Route::get(LaravelLocalization::transRoute('routes.services'), function() {
 		return View::make('services.services');
 	});
+	Route::get(LaravelLocalization::transRoute('routes.creation'), function() {
+		return View::make('services.single-service.creation');
+	});
 	Route::get(LaravelLocalization::transRoute('routes.domain'), function() {
 		return View::make('services.single-service.domain');
 	});
