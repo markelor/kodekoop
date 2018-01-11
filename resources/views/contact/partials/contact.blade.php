@@ -65,12 +65,15 @@
       <div class="col-lg-6">
         <h4 class="heading-primary mt-4">@lang('contact.get-in-touch-title')</h4>
         <p>@lang('contact.get-in-touch-body')</p>
-        {!!Form::open(['id'=>'passGeneratorForm','name'=>'passGeneratorForm'])!!}
-        {!!Form::button('Pasahitza sortu!', ['class' => 'btn','id'=>'passGenerator'])!!}
-        {!!Form::close()!!}
         
-        {!!Form::text('password', null,['id' => 'password','class'=>'form-control'])!!}
+        <!--{!!Form::text('password', null,['id' => 'password','class'=>'form-control'])!!}-->
+        {!!Form::text('qrCodeText', null,['id' => 'qrCodeText','class'=>'form-control'])!!}
+        {!!Form::open(['id'=>'passGeneratorForm','name'=>'passGeneratorForm'])!!}
+        <!--{!!Form::button('Pasahitza sortu!', ['class' => 'btn','id'=>'passGenerator'])!!}-->
+        {!!Form::button('QR kodea sortu!', ['class' => 'btn','id'=>'qrGenerator'])!!}
+        {!!Form::close()!!}
         <hr>
+        <div id="qrCode"></div>
       </div>
 
     </div>
@@ -130,25 +133,46 @@ $("#send").click(function(event) {
 });
 
 $("#passGenerator").click(function(event) {
-  console.log('pass');
   var token = $("input[name=_token]").val();
   var route = "./passGenerator";
   var length = 4;
   $.ajax({
-        url:route,
-        headers:{'X-CSRF-TOKEN':token},
-        type:'post',
-        datatype: 'json',
-        data:{length: length},
-        success: function(data) {
-          console.log(data);
-          $('#password').val(data)
-        },
-        error: function(data){
-          console.log("error");
-        }
-      });
+    url:route,
+    headers:{'X-CSRF-TOKEN':token},
+    type:'post',
+    datatype: 'json',
+    data:{length: length},
+    success: function(data) {
+      console.log(data);
+      $('#password').val(data)
+    },
+    error: function(data){
+      console.log("error");
+    }
   });
+
+});
+
+$("#qrGenerator").click(function(event) {
+  var token = $("input[name=_token]").val();
+  var route = "./qrGenerator";
+  var text = $("#qrCodeText").val();
+  $.ajax({
+    url:route,
+    headers:{'X-CSRF-TOKEN':token},
+    type:'post',
+    datatype: 'json',
+    data:{text: text},
+    success: function(data) {
+      console.log(data);
+    },
+    error: function(data){
+      console.log("error");
+    }
+  });
+
+  $("#qrCode").html("<img alt='' class='img-fluid' src='{{ asset('qrcode.png') }}'>")
+});
 </script>
          
   

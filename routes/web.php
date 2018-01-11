@@ -64,4 +64,6 @@ function()
 	Route::post(LaravelLocalization::transRoute('routes.contact'), ['as' => 'routes.contact','uses' => 'Contact\ContactController@store']);
 	Route::post('/passGenerator', ['as' => 'passGenerator','uses' => 'PassGenerator\PassGeneratorController@store' ]);
 
+	Route::post('/qrGenerator', ['as' => 'qrGenerator','uses' => 'QrGenerator\QrGeneratorController@store' ]);
+
 });
