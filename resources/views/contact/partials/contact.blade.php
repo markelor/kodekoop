@@ -72,6 +72,7 @@
         <!--{!!Form::button('Pasahitza sortu!', ['class' => 'btn','id'=>'passGenerator'])!!}-->
         {!!Form::button('QR kodea sortu!', ['class' => 'btn','id'=>'qrGenerator'])!!}
         {!!Form::close()!!}
+
         <hr>
         <div id="qrCode"></div>
       </div>
@@ -157,7 +158,7 @@ $("#qrGenerator").click(function(event) {
   var token = $("input[name=_token]").val();
   var route = "./qrGenerator";
   var text = $("#qrCodeText").val();
-  $.ajax({
+  /*$.ajax({
     url:route,
     headers:{'X-CSRF-TOKEN':token},
     type:'post',
@@ -169,9 +170,10 @@ $("#qrGenerator").click(function(event) {
     error: function(data){
       console.log("error");
     }
-  });
-
-  $("#qrCode").html("<img alt='' class='img-fluid' src='{{ asset('qrcode.png') }}'>")
+  });*/
+  var image = "<img src=\"data:image/png;base64, {!! base64_encode(QrCode::format('png')->size(250)->merge('img/ikonoa.png',.15,true)->errorCorrection('H')->generate('"+text+"'))!!}\">";
+  $("#qrCode").html(image);
+  //$("#qrCode").html("<img alt='' class='img-fluid' src='{{ asset('qrcode.png') }}'>")
 });
 </script>
          
