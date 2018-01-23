@@ -19,6 +19,7 @@ return array(
     'hosting'=>'Hosting',
     'seo'=>'Posicionamiento',
     'stats'=>'Estadisticas',
+    'assistance'=>'Asistencia',
     'photographs'=>'Fotografias',
     'web-pages'=>'Paginas Web',
     'maintenance'=>'Mantenimiento',

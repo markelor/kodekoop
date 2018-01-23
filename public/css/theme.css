@@ -1930,6 +1930,7 @@ html[dir="rtl"] #header .header-search .btn-light {
 	font-size: 0.85em;
 	text-transform: uppercase;
 	text-shadow: none;
+	color: #FFF;
 }
 
 .page-header .breadcrumb > li + li:before {

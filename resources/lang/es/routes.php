@@ -18,6 +18,7 @@ return array(
     'hosting'=>'servicios/hosting',
     'seo'=>'servicios/posicionamiento',
     'stats'=>'servicios/estadisticas',
+    'assistance'=>'servicios/asistencia',
     'photographs'=>'servicios/fotografias',
     'web-pages'=>'paginas-web',
     'maintenance'=>'mantenimiento',

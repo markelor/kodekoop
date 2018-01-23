@@ -4,7 +4,7 @@
 			<div class="col">
 				<ul class="breadcrumb">
 					<li><a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.home') )}}">@lang('menu.home')</a></li>
-					<li><a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.projects') )}}">@lang('menu.services')</a></li>
+					<li><a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.services') )}}">@lang('menu.services')</a></li>
 					<li class="active">@lang('menu.creation')</li>
 				</ul>
 			</div>
@@ -200,5 +200,4 @@
 
 		</div>
 	</div>
-
 </div>

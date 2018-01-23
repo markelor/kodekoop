@@ -19,6 +19,7 @@ return array(
     'hosting'=>'Hostinga',
     'seo'=>'Posizionamentua',
     'stats'=>'Estatistikak',
+    'assistance'=>'Laguntza',
     'photographs'=>'zerbitzuak/argazkiak',
     'web-pages'=>'Web Orriak',
     'maintenance'=>'Manteinua',

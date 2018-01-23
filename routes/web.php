@@ -52,6 +52,12 @@ function()
 	Route::get(LaravelLocalization::transRoute('routes.seo'), function() {
 		return View::make('services.single-service.seo');
 	});
+	Route::get(LaravelLocalization::transRoute('routes.stats'), function() {
+		return View::make('services.single-service.stats');
+	});
+	Route::get(LaravelLocalization::transRoute('routes.assistance'), function() {
+		return View::make('services.single-service.assistance');
+	});
 	Route::get(LaravelLocalization::transRoute('routes.projects'), function() {
 		return View::make('projects.projects');
 	});
