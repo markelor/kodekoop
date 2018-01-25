@@ -80,7 +80,7 @@
 
 	<div class="row">
 		<div class="col-lg-12">
-			<div class="tabs">
+			<div class="tabs-tertiary">
 				<ul class="nav nav-tabs nav-justified">
 					<?php $i=0; ?>
 					@foreach (Lang::get('services.hosting-kodekoop-services') as $services => $service)

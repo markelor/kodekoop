@@ -34,7 +34,7 @@
 		<div class="col-lg-4">
 
 			<span class="img-thumbnail d-block">
-				<img alt="" class="img-fluid" src="{{ asset('img/services/hosting.png') }}">
+				<img alt="" class="img-fluid" src="{{ asset('img/services/domain.png') }}">
 			</span>
 
 		</div>
@@ -79,7 +79,7 @@
 
 	<div class="row">
 		<div class="col-lg-12">
-			<div class="tabs">
+			<div class="tabs-secondary">
 				<ul class="nav nav-tabs nav-justified">
 					<?php $i=0; ?>
 					@foreach (Lang::get('services.domain-kodekoop-services') as $services => $service)

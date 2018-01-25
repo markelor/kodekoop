@@ -34,7 +34,7 @@
 		<div class="col-lg-4">
 
 			<span class="img-thumbnail d-block">
-				<img alt="" class="img-fluid" src="{{ asset('img/services/hosting.png') }}">
+				<img alt="" class="img-fluid" src="{{ asset('img/services/create.png') }}">
 			</span>
 
 		</div>
