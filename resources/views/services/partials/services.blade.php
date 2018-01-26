@@ -13,18 +13,16 @@
 
 <div class="container">
 
-	<h2>@lang('services.our')<strong>@lang('services.services')</strong></h2>
 
-	<div class="row align-items-center">
-		<div class="col-lg-10">
+	<div class="row align-items-center text-center">
+		<div class="col-lg-12">
+			<h2>@lang('services.our')<strong>@lang('services.services')</strong></h2>
 			<p class="lead">
 				@lang('services.general-description')
-				
 			</p>
-		</div>
-		<div class="col-lg-2">
 			<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.contact') )}}" class="btn btn-lg btn-primary">@lang('services.contact-us')</a>
 		</div>
+		
 	</div>
 
 	<hr>

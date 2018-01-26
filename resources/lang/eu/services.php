@@ -10,9 +10,9 @@ return array(
     | The following language lines contain the routes of the website
     |
     */
-    'our'=>'Gure',
+    'our'=>'Gure ',
     'services'=>'Zerbitzuak',
-    'general-description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non pulvinar. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eu risus enim, ut pulvinar lectus. Sed hendrerit nibh metus.',
+    'general-description'=>'Web orri eta aplikazioen garapena egingo dugu, sorkuntzatik martxan jarri arte. Ondorengo mantenimentu eta jarraipena eskainiz, orriaren posizionamentua eta estatistiken informazioa aztertuko dugu. Bezeroak izango lituzkeen behar berriei ere erantzuna emango diegu.',
     'creation'=>'Sorkuntza',
     'domain'=>'Domeinua',
     'hosting'=>'Hostinga',
