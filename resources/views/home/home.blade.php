@@ -9,7 +9,10 @@
 @endsection 
 
 @section('content')
-    @include('home.partials.home')   
+    @include('home.partials.home')  
+    @include('home.partials.brands') 
+    @include('home.partials.testimonials')   
+ 
 @endsection
 
 @section('footer')
