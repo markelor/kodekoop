@@ -20,7 +20,7 @@
 				<div class="row">
 					
 					<div class="col-lg-10 text-center">
-						<h2 class="mb-0">@lang('services.creation')</h2>
+						<h2 class="mb-0">@lang('services.assistance')</h2>
 					</div>
 					
 				</div>
@@ -44,12 +44,12 @@
 			<div class="portfolio-info">
 				<div class="row">
 					<div class="col-md-6">
-						<h5>@lang('services.web-creation-what-is')</h5>
+						<h5>@lang('services.assistance-what-is')</h5>
 					</div>
 				</div>
 			</div>
 
-			@foreach (Lang::get('services.web-creation-what-is-descriptions') as $descriptions => $description)
+			@foreach (Lang::get('services.assistance-what-is-descriptions') as $descriptions => $description)
 				<p class="mt-2">
 				{{$description['text']}}
 				</p>
@@ -74,7 +74,7 @@
 	<div class="row">
 		<div class="col">
 			<hr class="tall">
-			<h4>@lang('services.web-creation-kodekoop')</h4>
+			<h4>@lang('services.assistance-kodekoop')</h4>
 		</div>
 	</div>
 
@@ -83,7 +83,7 @@
 			<div class="tabs-senary">
 				<ul class="nav nav-tabs nav-justified">
 					<?php $i=0; ?>
-					@foreach (Lang::get('services.web-creation-kodekoop-services') as $services => $service)
+					@foreach (Lang::get('services.assistance-kodekoop-services') as $services => $service)
 						@if ($i == 0)
 							<li class="nav-item active">
 								<a class="nav-link" href="#service{{$i}}" data-toggle="tab" class="text-center"><i class="fa fa-star"></i> {{$service['title']}}</a>
@@ -98,7 +98,7 @@
 				</ul>
 				<div class="tab-content">
 					<?php $i=0; ?>
-					@foreach (Lang::get('services.web-creation-kodekoop-services') as $services => $service)
+					@foreach (Lang::get('services.assistance-kodekoop-services') as $services => $service)
 						@if ($i == 0)
 							<div id="service{{$i}}" class="tab-pane active">
 								<p>{{$service['body']}}</p>

@@ -1,1 +1,12 @@
 /* Add here all your CSS customizations */
+:root{
+	--kodekoop-dark:#1b8197;
+	--kodekoop:#37a1c1;
+	--kodekoop-light:#72bbd2;
+}
+
+dd{
+	color: #777;
+    line-height: 24px;
+    margin: 0 0 20px;
+}

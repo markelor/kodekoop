@@ -68,26 +68,6 @@
 				@endforeach
 				</dl>
 			@endforeach
-			{{-- seo-how-engine-function-descriptions part --}}
-			@foreach (Lang::get('services.seo-how-engine-function-descriptions') as $descriptions => $description)
-				<p class="mt-2">
-				{{$description['text']}}
-				</p>
-				<dl>
-				@foreach ($description['lists'] as $lists => $list)
-					<dt>{{$list['title']}}</dt>
-					<dd>{{$list['body']}}</dd>
-					<ul><ul class="list list-icons list-icons-sm">
-					@foreach ($list['sublists'] as $sublists => $sublist)
-						<li><i class="fa fa-caret-right"></i>
-							<strong>{{$sublist['title']}}</strong>
-							{{$sublist['body']}}
-						</li>
-					@endforeach
-					</ul></ul>
-				@endforeach
-				</dl>
-			@endforeach
 
 		</div>
 	</div>
