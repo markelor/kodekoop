@@ -116,7 +116,7 @@
 
 	</div>
 
-	<div class="row">
+	<!--<div class="row">
 		<div class="col">
 
 			<hr class="tall mt-4">
@@ -199,7 +199,7 @@
 			</div>
 
 		</div>
-	</div>
+	</div>-->
 
 </div>
 
