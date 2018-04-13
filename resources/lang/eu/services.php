@@ -201,7 +201,7 @@ return array(
             ]
         ]
     ],
-    'seo-kodekoop'=>'Posizionamentua Kodekoop-ekin.',
+    'seo-kodekoop'=>'Posizionamentua Kodekoop-ekin:',
     'seo-kodekoop-services'=>[
         [
             'title'=>'Barne optimizazioa:',

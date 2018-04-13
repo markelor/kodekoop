@@ -11,29 +11,32 @@ return array(
     |
     */
 
-    'about-us' => 'Nortzuk gara',
+    'about-us' => 'Quiénes somos',
     'main-title' => 'Desarrollo ',
     'main-title-rotate1' => 'eficaz.',
     'main-title-rotate2' => 'rápido.',
     'main-title-rotate3' => 'innovador.',
-    'main-body' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non <span class="alternative-font">metus.</span> pulvinar. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eu risus enim, ut pulvinar lectus. Sed hendrerit nibh.',
-    'skill-title' => '<strong>Quiénes</strong> somos',
-    'skill-body' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non <span class="alternative-font">metus.</span> pulvinar. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eu risus enim, ut pulvinar lectus. Sed hendrerit nibh.',
+    'main-body' => 'Tendrán preferencia los grupos, empresas o instituciones que estén vinculados al territorio y sean comprometidas con la contribución social. Que el <span class="alternative-font">patrimonio cultural</span> y el <span class="alternative-font">euskera</span> sean las fortalezas será muy importante para nuestro grupo. Queremos ser parte a la hora de satisfacer las necesidades de difusión de los proyectos locales.',
+    'skill-title' => '<strong>Quienes</strong> somos',
+    'skill-body' => 'Gure enpresa politikako barne arauekin bat datorren edozein enpresa, elkarte edota jarduerari ezagutzera emateko aukera landuko dugun kooperatiba txikia gara. Web orri edo aplikazioen garapenean jardungo dugu, horrez gain, barne antolamendu edota behar berezietarako aplikazioen garapena egingo dugu.
+Proiektu berriak eratzeaz gain, garatuta dauden proiektuei euskarri emango diegu gure zerbitzuen bitartez, beti ere bezeroen beharrak aintzat hartuz.
+Azkenik, gure eskuetatik pasatzen den proiektuen funtzionamendua bermatu eta jarraipen egokia egiteko, hileroko mantenua eskaintzen dugu. Bezeroak, berak behar duena soilik aukeratzeko aukera zabalarekin.
+Azken urteotan internetek gizartean izan duen inpaktua aintzat hartuz, euskal hiztun komunitatean garatzen diren proiektuak hedatzeko beharra ikusten dugu.',
     'employees' => [
         [
             'name' => 'Ion',
             'surname' => 'Lizarazu',
-            'profile' => 'Desarrollador',
-            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non metus pulvinar. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eu risus enim, ut pulvinar lectus. Sed hendrerit nibh.',
+            'profile' => 'Garatzailea',
+            'description' => 'Web garapeneko ikastaroa. Etxetik hiru hilabeteko web garapen lana egina daukat, eta automozioko enpresa bateko intraneteko garatzaile lanetan jardun dut azken bi urte eta erdian.',
         ],
         [
             'name' => 'Markel',
             'surname' => 'Mendizabal',
-            'profile' => 'Desarrollador',
-            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non metus pulvinar. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eu risus enim, ut pulvinar lectus. Sed hendrerit nibh.',
+            'profile' => 'Garatzailea',
+            'description' => 'Web eta mugikorren garapenerako hainbat ikastaro egin ditut  gaur egun puntan dauden teknologia gehienak ikasiz. Ikastaroen artean aurkitzen dira, udako euskal unibertsitatea, Innoba4b, coursera eta aulaformativa-rekin eginak. Etxetik, arkeologiako web orri propio bat garatu dut eta kodekoopentzat web eta mugikorretarako aplikazioen garapenean dihardut.',
         ],
     ]
-
+);
     
 
 );
