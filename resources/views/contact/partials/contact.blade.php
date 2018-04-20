@@ -154,7 +154,7 @@ $("#passGenerator").click(function(event) {
 
 });
 
-$("#qrGenerator").click(function(event) {
+{{--  $("#qrGenerator").click(function(event) {
   var token = $("input[name=_token]").val();
   var route = "./qrGenerator";
   var text = $("#qrCodeText").val();
@@ -170,11 +170,11 @@ $("#qrGenerator").click(function(event) {
     error: function(data){
       console.log("error");
     }
-  });*/
+  });
   var image = "<img src=\"data:image/png;base64, {!! base64_encode(QrCode::format('png')->size(250)->merge('img/ikonoa.png',.15,true)->errorCorrection('H')->generate('"+text+"'))!!}\">";
   $("#qrCode").html(image);
   //$("#qrCode").html("<img alt='' class='img-fluid' src='{{ asset('qrcode.png') }}'>")
-});
+});--}}
 </script>
          
   

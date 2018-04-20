@@ -38,5 +38,3 @@ Azken urteotan internetek gizartean izan duen inpaktua aintzat hartuz, euskal hi
     ]
 );
     
-
-);
