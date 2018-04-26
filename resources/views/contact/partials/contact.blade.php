@@ -1,16 +1,4 @@
-<div role="main" class="main">
-  <section class="page-header">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <ul class="breadcrumb">
-            <li><a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.home') )}}">@lang('menu.home')</a></li>
-            <li class="active">@lang('menu.contact')</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <div class="container">
 
@@ -81,7 +69,7 @@
 
   </div>
 
-</div>
+
 
 <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
 

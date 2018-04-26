@@ -10,6 +10,7 @@
 @endsection
 
 @section('content')
+    @include('projects.partials.navigation')
     @include('projects.partials.projects')
 @endsection
 @section('footer')

@@ -11,7 +11,7 @@ return array(
     |
     */
     'our'=>'Nuestros',
-    'services'=>'Servicios',
+    'services'=>' Servicios',
     'general-description'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellentesque imperdiet. Nulla lacinia iaculis nulla non pulvinar. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eu risus enim, ut pulvinar lectus. Sed hendrerit nibh metus.',
     'creation'=>'Creación',
     'domain'=>'Dominio',

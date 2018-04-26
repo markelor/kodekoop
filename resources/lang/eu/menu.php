@@ -26,6 +26,6 @@ return array(
     'contact' => 'Kontaktua',
     'projects' => 'Proiektuak',
     'project1' => 'Proiektua1',
+    'antzuolako8miliak' => 'Antzuolako 8 miliak',
     'language' => 'Euskara'
-
 );

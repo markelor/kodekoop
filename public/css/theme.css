@@ -1708,6 +1708,7 @@ html.side-header #header {
 		padding: 0 35px;
 		width: auto !important;
 		max-width: 1210px;
+		margin-bottom: 100px;
 	}
 
 	html.side-header body > .body {

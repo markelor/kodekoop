@@ -12,7 +12,7 @@ return array(
     */
 
     'about-us' => 'Nortzuk gara',
-    'main-title' => 'Garatzeko modu ',
+    'main-title' => 'Teknologia berrienetan',
     'main-title-rotate1' => 'eraginkorra.',
     'main-title-rotate2' => 'azkarra.',
     'main-title-rotate3' => 'berritzailea.',

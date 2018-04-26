@@ -12,7 +12,7 @@ return array(
     */
 
     'about-us' => 'Quiénes somos',
-    'main-title' => 'Desarrollo ',
+    'main-title' => 'En las tecnologías más novedosas',
     'main-title-rotate1' => 'eficaz.',
     'main-title-rotate2' => 'rápido.',
     'main-title-rotate3' => 'innovador.',

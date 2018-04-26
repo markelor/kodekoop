@@ -64,6 +64,9 @@ function()
 	Route::get(LaravelLocalization::transRoute('routes.project1'), function() {
 		return View::make('projects.single-project.project1');
 	});
+	Route::get(LaravelLocalization::transRoute('routes.antzuolako8miliak'), function() {
+		return View::make('projects.single-project.antzuolako8miliak');
+	});
 	Route::get(LaravelLocalization::transRoute('routes.contact'), function() {
 		return View::make('contact.contact');
 	});

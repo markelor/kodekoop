@@ -7,7 +7,7 @@
         <title> @yield('title')</title>
         <meta name="keywords" content="@yield('keywords')"> 
         <meta name="description" content="@yield('description')">
-        <meta name="author" content="www.kodekoop.eus">
+        <meta name="author" content="www.kodekoop.eus/eu">
 
         <!-- Canonocal -->
         <link rel="canonical" href="@yield('canonical')">

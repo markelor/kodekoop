@@ -1,22 +1,8 @@
-<div role="main" class="main">
-  <section class="page-header">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <ul class="breadcrumb">
-            <li><a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.home') )}}">@lang('menu.home')</a></li>
-            <li class="active">@lang('menu.about-us')</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="word-rotator-title mb-4">
-          @lang('about-us.main-title') <strong class="inverted inverted-primary"> <span class="word-rotator" data-plugin-options="{'delay': 2000, 'animDelay': 300}"><span class="word-rotator-items"><span>@lang('about-us.main-title-rotate1')</span><span>@lang('about-us.main-title-rotate2')</span><span>@lang('about-us.main-title-rotate3')</span></span></span></strong>
+          @lang('about-us.main-title')
         </h2>
         <p class="lead">
           @lang('about-us.main-body')
@@ -24,47 +10,12 @@
         <hr class="tall">
       </div>
     </div>
-    <div class="row mt-5">
-      <div class="col-lg-5">
+    <div class="row mt-2">
+      <div class="col-lg-12">
         <h2>@lang('about-us.skill-title')</h2>
         <p>@lang('about-us.skill-body')</p>
       </div>
-      <div class="col-lg-7">
-        <div class="progress-bars mt-4">
-          <div class="progress-label">
-            <span>HTML/CSS</span>
-          </div>
-          <div class="progress mb-2">
-            <div class="progress-bar progress-bar-primary" data-appear-progress-animation="100%">
-              <span class="progress-bar-tooltip">100%</span>
-            </div>
-          </div>
-          <div class="progress-label">
-            <span>Design</span>
-          </div>
-          <div class="progress mb-2">
-            <div class="progress-bar progress-bar-primary" data-appear-progress-animation="85%" data-appear-animation-delay="100">
-              <span class="progress-bar-tooltip">85%</span>
-            </div>
-          </div>
-          <div class="progress-label">
-            <span>WordPress</span>
-          </div>
-          <div class="progress mb-2">
-            <div class="progress-bar progress-bar-primary" data-appear-progress-animation="75%" data-appear-animation-delay="200">
-              <span class="progress-bar-tooltip">75%</span>
-            </div>
-          </div>
-          <div class="progress-label">
-            <span>Photoshop</span>
-          </div>
-          <div class="progress mb-2">
-            <div class="progress-bar progress-bar-primary" data-appear-progress-animation="85%" data-appear-animation-delay="300">
-              <span class="progress-bar-tooltip">85%</span>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
     <div class="row mt-5 mb-5">
     @foreach (Lang::get('about-us.employees') as $employees => $employee)
@@ -168,4 +119,4 @@
     @endforeach
     </div>
   </div>
-</div>
+
