@@ -24,6 +24,7 @@ return array(
     'maintenance'=>'mantenimiento',
     'projects'=>'proyectos',
     'project1'=>'proyectos/proyecto1',
+    'antzuolako8miliak' => 'proyectos/antzuolako8miliak',
     'contact' => 'contacto'
 
 );

@@ -25,6 +25,7 @@ return array(
     'maintenance'=>'manteinua',
     'projects'=>'proiektuak',
     'project1'=>'proiektuak/proiektua1',
+    'antzuolako8miliak'=>'proiektuak/antzuolako8miliak',
     'contact' => 'kontaktua'
 
 );

@@ -17,17 +17,15 @@
                         <nav class="header-nav-top">
                             <ul class="nav nav-pills">
                                 <li class="nav-item d-none d-sm-block">
-                                    <a class="nav-link" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.about-us') )}}"><i class="fa fa-angle-right"></i> @lang('menu.about-us')</a>
-                                </li>
-                                <li class="nav-item d-none d-sm-block">
                                     <a class="nav-link" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.contact') )}}"><i class="fa fa-angle-right"></i> @lang('menu.contact')</a>
                                 </li>
                                 <li class="nav-item">
-                                    <span class="ws-nowrap"><i class="fa fa-at"></i> kodekoop@gmail.com</span>
+                                    <span class="ws-nowrap">kodekoop@gmail.com</span>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="#" role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <img src="img/blank.gif" class="flag flag-{{ app()->getLocale() }}" alt="@lang('menu.language')" /> @lang('menu.language')
+                                        <img src="img/blank.gif" class="flag flag-{{ app()->getLocale() }}" alt="@lang('menu.language')" />
+                                        @lang('menu.language')
                                         <i class="fa fa-angle-down"></i>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="dropdownLanguage">
@@ -58,14 +56,14 @@
 
                                             </a>
                                         </li>
-                                        <li class="">
+                                        {{--<li class="">
                                             <a class="nav-link {{(url()->current() == LaravelLocalization::localizeURL(trans('routes.services'))) ? "active" : "" }}" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.services') )}}">
                                                 @lang('menu.services')
 
                                             </a>
                                         </li>
 
-                                        {{--<li class="dropdown">
+                                        <li class="dropdown">
                                             <a class="dropdown-item dropdown-toggle {{(url()->current() == LaravelLocalization::localizeURL(trans('routes.web-pages'))) || (url()->current() == LaravelLocalization::localizeURL(trans('routes.maintenance'))) ? "active" : "" }}" href="#">
                                                 @lang('menu.services')
                                             </a>
@@ -103,3 +101,4 @@
         </div>
     </div>
 </header>
+<div role="main" class="main">
