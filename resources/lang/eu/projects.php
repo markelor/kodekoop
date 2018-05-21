@@ -18,21 +18,21 @@ return array(
             'sing' => 'Webgunea',
             'pl' => 'Webguneak',
         ],
-        'app'=>
+        /*'app'=>
             [
             'sing' => 'Aplikazioa',
             'pl' => 'Aplikazioak',
-        ],
+        ],*/
     ],
 
     'work-done' => 'Egindako lana',
     'client' => 'Bezeroa',
     'antzuolako8miliak' => [
         'date' => '2018ko Urtarrila',
-        'description' => 'Antzuolako 8 miliak proiektuaren azalpena hemen joango litzateke.',
+        'description' => 'Antzuolako 8 miliak mendi lasterketaren webgunea. Lasterketako informazio guztia bertan ageri da. Egunean bertan lasterketako argazkiak eta sailkapena webgunean eskegi genituen.',
         'client' => 'Antzuolako 8 miliak',
-        'tags' => ['website','app'],
-        'works' => ['website','app'],
+        'tags' => ['website'],
+        'works' => ['website'],
     ]
 
 );

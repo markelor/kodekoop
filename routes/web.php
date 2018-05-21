@@ -61,9 +61,7 @@ function()
 	Route::get(LaravelLocalization::transRoute('routes.projects'), function() {
 		return View::make('projects.projects');
 	});
-	Route::get(LaravelLocalization::transRoute('routes.project1'), function() {
-		return View::make('projects.single-project.project1');
-	});
+	
 	Route::get(LaravelLocalization::transRoute('routes.antzuolako8miliak'), function() {
 		return View::make('projects.single-project.antzuolako8miliak');
 	});
@@ -72,7 +70,5 @@ function()
 	});
 	Route::post(LaravelLocalization::transRoute('routes.contact'), ['as' => 'routes.contact','uses' => 'Contact\ContactController@store']);
 	Route::post('/passGenerator', ['as' => 'passGenerator','uses' => 'PassGenerator\PassGeneratorController@store' ]);
-
-	Route::post('/qrGenerator', ['as' => 'qrGenerator','uses' => 'QrGenerator\QrGeneratorController@store' ]);
 
 });

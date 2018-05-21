@@ -1,21 +1,14 @@
-
-
   <div class="container">
-
     <div class="row">
       <div class="col-lg-6">
-
         <div class="alert alert-success d-none mt-4" id="contactSuccess">
-          <strong>Success!</strong> Your message has been sent to us.
+          <strong>Success!</strong> Mezua bidalita!
         </div>
-
         <div class="alert alert-danger d-none mt-4" id="contactError">
-          <strong>Error!</strong> There was an error sending your message.
+          <strong>Error!</strong> Errore bat egon da mezua bidaltzerakoan.
           <span class="text-1 mt-2 d-block" id="mailErrorMessage"></span>
         </div>
-
-        <h2 class="mb-3 mt-2"><strong>@lang('contact.contact')</strong></h2>
-                
+        <h2 class="mb-3 mt-2"><strong>@lang('contact.contact')</strong></h2>                
         {!!Form::open(['id'=>'contactForm','name'=>'contactForm'])!!}
           <div class="form-row">
             <div class="form-group col-lg-6">
@@ -45,28 +38,25 @@
           </div>
           <div class="form-row">
             <div class="form-group col">
-              {!!Form::button(trans('contact.send'), ['name'=>'send','id'=>'send','class'=>'btn btn-primary btn-lg','data-loading-text'=>'Loading...'])!!}
+              {!!Form::button(trans('contact.send'), ['name'=>'send','id'=>'send','class'=>'btn btn-primary btn-lg','data-loading-text'=>'Prestatzen...'])!!}
             </div>
           </div>
         {!!Form::close()!!}
       </div>
-      <div class="col-lg-6">
+      <!--<div class="col-lg-6">
         <h4 class="heading-primary mt-4">@lang('contact.get-in-touch-title')</h4>
         <p>@lang('contact.get-in-touch-body')</p>
         
-        <!--{!!Form::text('password', null,['id' => 'password','class'=>'form-control'])!!}-->
-        {!!Form::text('qrCodeText', null,['id' => 'qrCodeText','class'=>'form-control'])!!}
+        {!!Form::text('password', null,['id' => 'password','class'=>'form-control'])!!}
         {!!Form::open(['id'=>'passGeneratorForm','name'=>'passGeneratorForm'])!!}
-        <!--{!!Form::button('Pasahitza sortu!', ['class' => 'btn','id'=>'passGenerator'])!!}-->
-        {!!Form::button('QR kodea sortu!', ['class' => 'btn','id'=>'qrGenerator'])!!}
+        {!!Form::button('Pasahitza sortu!', ['class' => 'btn','id'=>'passGenerator'])!!}
         {!!Form::close()!!}
 
         <hr>
         <div id="qrCode"></div>
       </div>
-
+      -->
     </div>
-
   </div>
 
 
@@ -120,7 +110,7 @@ $("#send").click(function(event) {
     });
 
 });
-
+/*
 $("#passGenerator").click(function(event) {
   var token = $("input[name=_token]").val();
   var route = "./passGenerator";
@@ -132,37 +122,14 @@ $("#passGenerator").click(function(event) {
     datatype: 'json',
     data:{length: length},
     success: function(data) {
-      console.log(data);
       $('#password').val(data)
     },
     error: function(data){
       console.log("error");
     }
   });
-
 });
-
-{{--  $("#qrGenerator").click(function(event) {
-  var token = $("input[name=_token]").val();
-  var route = "./qrGenerator";
-  var text = $("#qrCodeText").val();
-  /*$.ajax({
-    url:route,
-    headers:{'X-CSRF-TOKEN':token},
-    type:'post',
-    datatype: 'json',
-    data:{text: text},
-    success: function(data) {
-      console.log(data);
-    },
-    error: function(data){
-      console.log("error");
-    }
-  });
-  var image = "<img src=\"data:image/png;base64, {!! base64_encode(QrCode::format('png')->size(250)->merge('img/ikonoa.png',.15,true)->errorCorrection('H')->generate('"+text+"'))!!}\">";
-  $("#qrCode").html(image);
-  //$("#qrCode").html("<img alt='' class='img-fluid' src='{{ asset('qrcode.png') }}'>")
-});--}}
+*/
 </script>
          
   

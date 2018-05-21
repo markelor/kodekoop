@@ -1,4 +1,4 @@
-<header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 55, 'stickySetTop': '-55px', 'stickyChangeLogo': true}">
+<header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 57, 'stickySetTop': '-55px', 'stickyChangeLogo': true}">
     <div class="header-body">
         <div class="header-container container">
             <div class="header-row">
@@ -6,8 +6,7 @@
                     <div class="header-row">
                         <div class="header-logo">
                             <a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.home') )}}">
-
-                                <img alt="Kodekoop" width="220" height="54" data-sticky-top="33" src="{{ asset('img/logo.png') }}">
+                                <img alt="Kodekoop" width="220" height="54" data-sticky-width="165" data-sticky-height="40" data-sticky-top="33" src="{{ asset('img/logo.png') }}">
                             </a>
                         </div>
                     </div>
@@ -16,11 +15,11 @@
                     <div class="header-row pt-3">
                         <nav class="header-nav-top">
                             <ul class="nav nav-pills">
-                                <li class="nav-item d-none d-sm-block">
+                                <li class="nav-item d-none d-lg-block">
                                     <a class="nav-link" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.contact') )}}"><i class="fa fa-angle-right"></i> @lang('menu.contact')</a>
                                 </li>
-                                <li class="nav-item">
-                                    <span class="ws-nowrap">kodekoop@gmail.com</span>
+                                <li class="nav-item d-none d-lg-block">
+                                    <span class="ws-nowrap">kodekoop@kodekoop.eus</span>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="#" role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -50,13 +49,13 @@
                                                 @lang('menu.home')
                                             </a>
                                         </li>
-                                        <li class="">
+                                        {{--<li class="">
                                             <a class="nav-link {{(url()->current() == LaravelLocalization::localizeURL(trans('routes.about-us'))) ? "active" : "" }}" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.about-us') )}}">
                                                 @lang('menu.about-us')
 
                                             </a>
                                         </li>
-                                        {{--<li class="">
+                                        <li class="">
                                             <a class="nav-link {{(url()->current() == LaravelLocalization::localizeURL(trans('routes.services'))) ? "active" : "" }}" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.services') )}}">
                                                 @lang('menu.services')
 
@@ -72,12 +71,12 @@
                                                 <li><a class="dropdown-item {{(url()->current() == LaravelLocalization::localizeURL(trans('routes.maintenance'))) ? "active" : "" }}" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.maintenance') )}}">@lang('menu.maintenance')</a></li>
                                             </ul>
                                         </li>
-                                        --}}
+                                        
                                         <li class="">
                                             <a class="nav-link {{(url()->current() == LaravelLocalization::localizeURL(trans('routes.projects'))) ? "active" : "" }}" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.projects') )}}">
                                                 @lang('menu.projects')
                                             </a>
-                                        </li>
+                                        </li>--}}
                                         <li class="">
                                             <a class="nav-link {{(url()->current() == LaravelLocalization::localizeURL(trans('routes.contact'))) ? "active" : "" }}" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.contact') )}}">
                                                 @lang('menu.contact')

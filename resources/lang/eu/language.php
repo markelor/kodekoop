@@ -11,7 +11,7 @@ return array(
     |
     */
 
+    'eu' => 'Euskara',
     'en' => 'Ingelera',
     'es' => 'Gaztelania',
-    'eu' => 'Euskara',
 );
