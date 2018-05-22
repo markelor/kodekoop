@@ -21,7 +21,7 @@
 					<a href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.antzuolako8miliak'))}}">
 						<span class="thumb-info thumb-info-lighten">
 							<span class="thumb-info-wrapper">
-								<img src="{{ asset('img/projects/Antzuolako-8-miliak.jpg') }}" class="img-fluid" alt="">
+								<img src="{{ asset('img/projects/antzuolako-8-miliak.jpg') }}" class="img-fluid" alt="">
 								<span class="thumb-info-title">
 									<span class="thumb-info-inner">Antzuolako 8 miliak</span>
 									<span class="thumb-info-type">
