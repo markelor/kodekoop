@@ -19,7 +19,7 @@
                                     <a class="nav-link" href="{{ url(LaravelLocalization::getURLFromRouteNameTranslated(Config::get('app.locale'), 'routes.contact') )}}"><i class="fa fa-angle-right"></i> @lang('menu.contact')</a>
                                 </li>
                                 <li class="nav-item d-none d-lg-block">
-                                    <span class="ws-nowrap">kodekoop@kodekoop.eus</span>
+                                    <span class="ws-nowrap">kontaktua@kodekoop.eus</span>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="#" role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

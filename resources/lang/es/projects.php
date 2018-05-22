@@ -26,6 +26,7 @@ return array(
     ],
 
     'work-done' => 'Trabajo realizado',
+    'go-to-project' => 'Ir al proyecto',
     'client' => 'Cliente',
     'antzuolako8miliak' => [
         'date' => 'Enero 2018',
@@ -33,7 +34,8 @@ return array(
         'client' => 'Antzuolako 8 miliak',
         'tags' => ['website'],
         'works' => ['website'],
-    ]
+    ],
+    'want-a-web'=>'¿Tú también quieres tener una página web?',
 
 
 );

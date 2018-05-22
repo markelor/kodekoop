@@ -18,8 +18,6 @@ return array(
     'phone'=>'Telefonoa',
     'message'=>'Mezua',
     'send'=>'Bidali',
-    'get-in-touch-title'=>'titulua <strong>strong</strong>',
-    'get-in-touch-body'=>'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. In eu ipsum vitae velit congue iaculis vitae at risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     'form-error-strong'=>'Akatsa mezua bidaltzerakoan!',
     'form-error'=>'Mesedez, saiatu zaitez berriz.',
     'form-success-strong'=>'Zure mezua bidali da!',

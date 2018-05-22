@@ -26,6 +26,7 @@ return array(
     ],
 
     'work-done' => 'Egindako lana',
+    'go-to-project' => 'Joan proiektura',
     'client' => 'Bezeroa',
     'antzuolako8miliak' => [
         'date' => '2018ko Urtarrila',
@@ -33,6 +34,6 @@ return array(
         'client' => 'Antzuolako 8 miliak',
         'tags' => ['website'],
         'works' => ['website'],
-    ]
-
+    ],
+    'want-a-web'=>'Nahi al duzu zuk ere zure webgunea izan?',
 );

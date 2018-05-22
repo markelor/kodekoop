@@ -2021,7 +2021,7 @@ html.ie #header .header-column .header-extra-info .feature-box .feature-box-info
 }
 
 .page-header .breadcrumb > li + li:before {
-	color: inherit;
+	color: #fff;
 	opacity: 0.5;
 	font-family: 'Font Awesome 5 Free';
 	font-weight: 900;
@@ -4194,7 +4194,7 @@ html.dark .nav-tabs li.active a,
 html.dark .nav-tabs li.active a:hover,
 html.dark .nav-tabs li.active a:focus,
 html.dark .nav-tabs li a {
-	color: #808697;
+	color: #fff;
 }
 
 html.dark .tab-content {

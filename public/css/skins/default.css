@@ -1456,6 +1456,10 @@ html .page-header-color.page-header-primary a {
 	color: #ffffff;
 }
 
+.breadcrumb > .active {
+	color: #ffffff;
+}
+
 html .page-header-color.page-header-primary .breadcrumb > .active {
 	color: #ffffff;
 }

@@ -86,7 +86,7 @@
 					@foreach (Lang::get('services.seo-kodekoop-services') as $services => $service)
 						@if ($i == 0)
 							<li class="nav-item active">
-								<a class="nav-link" href="#service{{$i}}" data-toggle="tab" class="text-center"><i class="fa fa-star"></i> {{$service['title']}}</a>
+								<a class="nav-link" href="#service{{$i}}" data-toggle="tab" class="text-center"> {{$service['title']}}</a>
 							</li>
 						@else
 							<li class="nav-item">
