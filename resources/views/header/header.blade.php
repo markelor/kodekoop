@@ -24,7 +24,7 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="#" role="button" id="dropdownLanguage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <img src="{{ asset('img/blank.gif') }}" class="flag flag-{{ app()->getLocale() }}" alt="@lang('menu.language')" />
-                                        @lang('menu.language')
+                                        
                                         <i class="fa fa-angle-down"></i>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="dropdownLanguage">

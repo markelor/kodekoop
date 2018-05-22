@@ -22,6 +22,9 @@
         <!-- Web Fonts  -->
         <link href="{{ asset('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light') }}" rel="stylesheet" type="text/css">
 
+        <!-- Demo CSS -->
+        <link rel="stylesheet" href="{{ asset('vendor/font-awesome/css/font-awesome.min.css') }}">
+
         <!-- Theme CSS -->
         <link rel="stylesheet" href="{{ asset('css/theme.css') }}">
         <link rel="stylesheet" href="{{ asset('css/theme-elements.css') }}">
@@ -41,9 +44,6 @@
         <link rel="stylesheet" href="{{ asset('vendor/rs-plugin/css/navigation.css') }}">
         <link rel="stylesheet" href="{{ asset('vendor/circle-flip-slideshow/css/component.css') }}">
         
-        <!-- Demo CSS -->
-
-        <link rel="stylesheet" href="{{ asset('vendor/font-awesome/css/font-awesome.min.css') }}">
 
         <!-- Skin CSS -->
         <link rel="stylesheet" href="{{ asset('css/skins/default.css') }}"> 

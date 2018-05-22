@@ -2023,7 +2023,7 @@ html.ie #header .header-column .header-extra-info .feature-box .feature-box-info
 .page-header .breadcrumb > li + li:before {
 	color: #fff;
 	opacity: 0.5;
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'FontAwesome';
 	font-weight: 900;
 	content: "\f105";
 	padding: 0 7px 0 5px;
@@ -2666,7 +2666,7 @@ aside ul.nav-list > li > a {
 }
 
 .tparrows.tparrows-carousel.tp-leftarrow:before {
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'FontAwesome';
 	font-weight: 900;
 	content: "\f053";
 	position: relative;
@@ -2681,7 +2681,7 @@ aside ul.nav-list > li > a {
 }
 
 .tparrows.tparrows-carousel.tp-rightarrow:before {
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'FontAwesome';
 	font-weight: 900;
 	content: "\f054";
 	position: relative;

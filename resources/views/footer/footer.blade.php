@@ -6,10 +6,10 @@
                 <span>@lang('footer.contact-us')</span>
             </div>
             <div class="col-lg-6">
-                <div class="newsletter">
-                    <h4>Kodekoop</h4>
+                <div >
+                    <img alt="Kodekoop" class="img-fluid" src="{{ asset('img/logo-footer.png') }}">
                     <p>@lang('footer.share-your-project')</p>
-                    <div class="alert alert-danger d-none" id="newsletterError"></div>
+                    <p><i class="fa fa-copyright"></i>@lang('footer.kodekoop-development')</p>
                 </div>
             </div>         
             <div class="col-lg-4">
@@ -24,26 +24,13 @@
             </div>
             <div class="col-lg-2">
                 <h4>@lang('footer.follow-us')</h4>
-                <ul class="social-icons">
-                    <li class="social-icons-facebook"><a href="http://www.facebook.com/kodekoop.eus" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                <ul class="header-social-icons social-icons d-none d-sm-block">
+                    <li class="social-icons-facebook"><a href="http://www.facebook.com/kodekoop.eus/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
                     <li class="social-icons-twitter"><a href="http://www.twitter.com/kodekoop" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                     <li class="social-icons-instagram"><a href="http://www.instagram.com/kodekoop/" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>                   
                 </ul>
             </div>
         </div>
     </div>
-    <div class="footer-copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-1">
-                    <a href="index.html" class="logo">
-                        <img alt="Kodekoop" class="img-fluid" src="{{ asset('img/logo-footer.png') }}">
-                    </a>
-                </div>
-                <div class="col-lg-7">
-                    <p>@lang('footer.kodekoop-development')</p>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 </footer>
