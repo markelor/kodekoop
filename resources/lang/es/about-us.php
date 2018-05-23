@@ -28,12 +28,24 @@ Azken urteotan internetek gizartean izan duen inpaktua aintzat hartuz, euskal hi
             'surname' => 'Lizarazu',
             'profile' => 'Garatzailea',
             'description' => 'Web garapeneko ikastaroa. Etxetik hiru hilabeteko web garapen lana egina daukat, eta automozioko enpresa bateko intraneteko garatzaile lanetan jardun dut azken bi urte eta erdian.',
+            'skills' =>
+                [   
+                'SQL' => '90',
+                'Wordpress' => '90',
+                'Diseinua' => '90',
+                ],
         ],
         [
             'name' => 'Markel',
             'surname' => 'Mendizabal',
             'profile' => 'Garatzailea',
             'description' => 'Web eta mugikorren garapenerako hainbat ikastaro egin ditut  gaur egun puntan dauden teknologia gehienak ikasiz. Ikastaroen artean aurkitzen dira, udako euskal unibertsitatea, Innoba4b, coursera eta aulaformativa-rekin eginak. Etxetik, arkeologiako web orri propio bat garatu dut eta kodekoopentzat web eta mugikorretarako aplikazioen garapenean dihardut.',
+            'skills' =>
+                [   
+                'AngularJS' => '90',
+                'NodeJS' => '90',
+                'AmazonWS' => '90',
+                ],
         ],
     ]
 );
