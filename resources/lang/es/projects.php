@@ -18,11 +18,11 @@ return array(
             'sing' => 'Sitio web',
             'pl' => 'Sitios web',
         ],
-        'app'=>
+        /*'app'=>
             [
             'sing' => 'Aplicación',
             'pl' => 'Aplicaciones',
-        ],
+        ],*/
     ],
 
     'work-done' => 'Trabajo realizado',

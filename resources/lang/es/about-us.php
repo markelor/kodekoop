@@ -18,28 +18,28 @@ return array(
     'main-title-rotate3' => 'innovador.',
     'main-body' => 'Tendrán preferencia los grupos, empresas o instituciones que estén vinculados al territorio y sean comprometidas con la contribución social. Que el <span class="alternative-font">patrimonio cultural</span> y el <span class="alternative-font">euskera</span> sean las fortalezas será muy importante para nuestro grupo. Queremos ser parte a la hora de satisfacer las necesidades de difusión de los proyectos locales.',
     'skill-title' => '<strong>Quienes</strong> somos',
-    'skill-body' => 'Gure enpresa politikako barne arauekin bat datorren edozein enpresa, elkarte edota jarduerari ezagutzera emateko aukera landuko dugun kooperatiba txikia gara. Web orri edo aplikazioen garapenean jardungo dugu, horrez gain, barne antolamendu edota behar berezietarako aplikazioen garapena egingo dugu.
-Proiektu berriak eratzeaz gain, garatuta dauden proiektuei euskarri emango diegu gure zerbitzuen bitartez, beti ere bezeroen beharrak aintzat hartuz.
-Azkenik, gure eskuetatik pasatzen den proiektuen funtzionamendua bermatu eta jarraipen egokia egiteko, hileroko mantenua eskaintzen dugu. Bezeroak, berak behar duena soilik aukeratzeko aukera zabalarekin.
-Azken urteotan internetek gizartean izan duen inpaktua aintzat hartuz, euskal hiztun komunitatean garatzen diren proiektuak hedatzeko beharra ikusten dugu.',
+    'skill-body' => 'Somos una cooperativa pequeña que ofrece la oportunidad de dar a conocer a empresas, asociaciones o actividades que coincidan con nuestros valores de empresa. Trabajamos en desarrollo de webs y aplicaciones, y además, desarrollamos aplicaciones para necesidades especiales y/o gestiónes internas.
+Además de desarrollar nuevos proyectos, daremos soporte a los ya creados mediante nuestros servicios, siempre teniendo en cuenta las necesidades del cliente.
+Por último, para asegurar el funcionamiento de los proyectos que desarrollamos y hacer un seguimiento, ofrecemos servicio de mantenimiento mensual. Con un amplio abanico donde el cliente pueda elegir el nivel que quiera.
+Teniendo en cuenta el gran impacto que ha tenido internet estos últimos años, vemos la necesidad de expandir los proyectos que se llevan a cabo en la comunidad vascoparlante.',
     'employees' => [
         [
             'name' => 'Ion',
             'surname' => 'Lizarazu',
-            'profile' => 'Garatzailea',
-            'description' => 'Web garapeneko ikastaroa. Etxetik hiru hilabeteko web garapen lana egina daukat, eta automozioko enpresa bateko intraneteko garatzaile lanetan jardun dut azken bi urte eta erdian.',
+            'profile' => 'Desarrollador',
+            'description' => 'Curso de desarrollo web y aplicaciones móviles. Desarrollador web desde casa durante tres meses y desarrollador web y administrador de la base de datos SQL en una empresa.',
             'skills' =>
                 [   
                 'SQL' => '90',
                 'Wordpress' => '90',
-                'Diseinua' => '90',
+                'Diseño' => '90',
                 ],
         ],
         [
             'name' => 'Markel',
             'surname' => 'Mendizabal',
-            'profile' => 'Garatzailea',
-            'description' => 'Web eta mugikorren garapenerako hainbat ikastaro egin ditut  gaur egun puntan dauden teknologia gehienak ikasiz. Ikastaroen artean aurkitzen dira, udako euskal unibertsitatea, Innoba4b, coursera eta aulaformativa-rekin eginak. Etxetik, arkeologiako web orri propio bat garatu dut eta kodekoopentzat web eta mugikorretarako aplikazioen garapenean dihardut.',
+            'profile' => 'Desarrollador',
+            'description' => 'Varios cursos en desarrollo web y de aplicaciones con tecnologías de última generación. Entre ellos los cursos de udako euskal unibertsitatea, Innoba4b, coursera y aulaformativa. Desarrollo y gestión de una página web de Arqueologia.',
             'skills' =>
                 [   
                 'AngularJS' => '90',
