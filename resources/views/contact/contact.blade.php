@@ -1,9 +1,7 @@
 @extends('index')
-@section('title','Kodekoop')
-@section('description')
-@lang('contact.description')
-@endsection
-@section('keywords', 'Trabajos web','Creador web','Paginas web','Diseñador web,Diseño web,Angular,Laravel,PHP,Bootstrap,HTML5,CSS3,JavaScript,Jquery,Freelance,Web Freelancer,SEO,Email marketing,SEO,PPC,Banner, Desarrollador Web, Desarrollo Web')
+@section('title',trans('search.contact-title'))
+@section('description', trans('search.contact-description'))
+@section('keywords', trans('search.contact-keywords'))
 
 @section('header')
     @include('header.header')
