@@ -30,8 +30,8 @@ Teniendo en cuenta el gran impacto que ha tenido internet estos últimos años, 
             'description' => 'Curso de desarrollo web y aplicaciones móviles. Desarrollador web desde casa durante tres meses y desarrollador web y administrador de la base de datos SQL en una empresa.',
             'skills' =>
                 [   
-                'SQL' => '90',
-                'Wordpress' => '90',
+                'SQL' => '93',
+                'Wordpress' => '86',
                 'Diseño' => '90',
                 ],
         ],
@@ -42,9 +42,9 @@ Teniendo en cuenta el gran impacto que ha tenido internet estos últimos años, 
             'description' => 'Varios cursos en desarrollo web y de aplicaciones con tecnologías de última generación. Entre ellos los cursos de udako euskal unibertsitatea, Innoba4b, coursera y aulaformativa. Desarrollo y gestión de una página web de Arqueologia.',
             'skills' =>
                 [   
-                'AngularJS' => '90',
-                'NodeJS' => '90',
-                'AmazonWS' => '90',
+                'Angular' => '95',
+                'NodeJS' => '86',
+                'MongodDB' => '88',
                 ],
         ],
     ]

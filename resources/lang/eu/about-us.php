@@ -27,8 +27,8 @@ return array(
             'description' => 'Web garapeneko eta aplikazioen ikastaroa. Etxetik hiru hilabeteko web garapen lana eta web garapena eta SQL datu baseen administrazioa enpresa batean.',
             'skills' =>
                 [   
-                'SQL' => '90',
-                'Wordpress' => '90',
+                'SQL' => '93',
+                'Wordpress' => '86',
                 'Diseinua' => '90',
                 ],
         ],
@@ -39,9 +39,9 @@ return array(
             'description' => 'Web eta mugikorren garapenerako hainbat ikastaro gaur egun puntan dauden teknologia gehienak ikasiz. Ikastaroen artean aurkitzen dira, udako euskal unibertsitatea, Innoba4b, coursera eta aulaformativa-rekin eginak. Arkeologiako web orri baten garapena eta gestioaren jabea.',
             'skills' =>
                 [   
-                'AngularJS' => '90',
-                'NodeJS' => '90',
-                'AmazonWS' => '90',
+                'Angular' => '95',
+                'NodeJS' => '86',
+                'MongoDB' => '88',
                 ],
         ],
     ]
